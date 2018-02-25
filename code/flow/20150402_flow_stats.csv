@@ -1,0 +1,26 @@
+# Comments about run
+# date: 20150402
+# mar related:
+# Looked at mar promoter libraries in MG1655 delta marR, as well as
+# in MG1655 delta marRAB strains. Growth of cells was in LB media
+# at 30C.
+# rel related:
+# After overnight growth of sorted cells (rel , where only the downstream
+region after the RNAP binding site should be mutated).
+# The library was PCR amplified such that the RNAP
+# region should be mainly wild-type. These cells were grown in M9 glucose.
+# Post analysis note: The upstream region where RNAP binds turned out to have
+# some non-negligible mutation rate. This is likely due to the amount of initial
+# library I input into the PCR during construction (since this library was based
+# on the other full mut1 library). It still looks like the data is good.
+date,promoter,strain,region,bin,sequence,voltage,gain,media,condition,Region,Count,%Hist,%All,Bounds,ModeCount,Mode,Mean,Median,StdDev.,CV,CV(hm),Skew
+20150402,marR,MG1655deltamarRAB,na,na,wild-type,600,1H,LB,30C,Total,479621,100.0,100.0,"(1.00,100000.04)",14066,323.45,295.44,270.01,197.31,66.79,57.41,29.88
+20150402,marR,MG1655deltamarRAB,mut1,na,library,600,1H,LB,30C,Total,341498,100.0,100.0,"(1.00,100000.04)",6625,104.62,160.27,100.0,325.76,203.25,100.7,173.67
+20150402,marR,MG1655deltamarRAB,mut2,na,library,600,1H,LB,30C,Total,357806,100.0,100.0,"(1.00,100000.04)",7009,137.17,155.23,109.45,171.12,110.24,93.09,13.79
+20150402,marR,MG1655deltamarR,na,na,wild-type,600,1H,LB,30C,Total,434648,100.0,100.0,"(1.00,100000.04)",11121,485.6,360.91,323.45,262.07,72.61,51.66,1.43
+20150402,marR,MG1655deltamarR,mut1,na,library,600,1H,LB,30C,Total,345211,100.0,100.0,"(1.00,100000.04)",6091,104.62,230.54,109.45,565.63,245.35,129.05,16.55
+20150402,marR,MG1655deltamarR,mut2,na,library,600,1H,LB,30C,Total,377891,100.0,100.0,"(1.00,100000.04)",7000,131.11,185.54,125.33,466.2,251.27,136.91,182.15
+20150402,rel,MG1655,mut1_oponly_batch1_PCR,1,library,600,1H,LB,na,Total,364637,100.0,100.0,"(1.00,100000.04)",4858,109.45,1128.86,196.84,2381.93,211.0,143.23,5.1
+20150402,rel,MG1655,mut1_oponly_batch1_PCR,2,library,600,1H,LB,na,Total,434146,100.0,100.0,"(1.00,100000.04)",6309,309.17,821.44,295.52,1744.83,212.41,140.88,6.45
+20150402,rel,MG1655,mut1_oponly_batch1_PCR,3,library,600,1H,LB,na,Total,477252,100.0,100.0,"(1.00,100000.04)",9537,1046.18,1553.26,1000.0,1915.81,123.34,102.52,5.36
+20150402,rel,MG1655,mut1_oponly_batch1_PCR,4,library,600,1H,LB,na,Total,478149,100.0,100.0,"(1.00,100000.04)",9797,5314.84,4625.7,3703.63,4262.42,92.15,75.6,2.45

@@ -1,0 +1,10 @@
+# Comments about run
+# date: 20150331
+# Looked at mar libraries in delta marR and delta marRAB strains (30C, LB).
+date,promoter,strain,region,bin,sequence,voltage,gain,media,condition,Region,Count,%Hist,%All,Bounds,ModeCount,Mode,Mean,Median,StdDev.,CV,CV(hm),Skew
+20150331,marR,MG1655deltamarR,na,na,wild-type,600,1H,LB,30C,Total,323116,100.0,100.0,"(1.00,100000.04)",4907,109.45,252.65,137.17,680.61,269.38,233.39,36.5
+20150331,marR,MG1655deltamarRAB,na,na,wild-type,600,1H,LB,30C,Total,351971,100.0,100.0,"(1.00,100000.04)",6555,171.91,174.05,131.11,155.46,89.32,103.47,15.8
+20150331,marR,MG1655deltamarR,mut1,na,library,600,1H,LB,30C,Total,256270,100.0,100.0,"(1.00,100000.04)",5462,95.59,113.2,72.9,650.02,574.23,74.16,142.6
+20150331,relB,MG1655,na,na,wild-type,600,1H,M9glucose,na,Total,432649,100.0,100.0,"(1.00,100000.04)",11569,531.48,517.93,443.67,704.28,135.98,64.61,98.53
+20150331,relB,MG1655,mut1_oponly_batch1_PCR,na,library,600,1H,M9glucose,na,Total,407339,100.0,100.0,"(1.00,100000.04)",3661,729.03,1896.93,608.57,3062.94,161.47,504.78,3.79
+20150331,relB,MG1655,mut1_oponly_batch2_PCR,na,library,600,1H,M9glucose,na,Total,419533,100.0,100.0,"(1.00,100000.04)",3970,1253.25,2165.39,797.92,3231.45,149.23,336.14,3.35

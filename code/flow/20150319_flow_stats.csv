@@ -1,0 +1,11 @@
+# Comments about run
+# date: 20150319
+# Looked at mar libraries in delta marR and delta marRAB strains (30C, LB).
+date,promoter,strain,region,bin,sequence,voltage,gain,media,condition,Region,Count,%Hist,%All,Bounds,ModeCount,Mode,Mean,Median,StdDev.,CV,CV(hm),Skew
+20150319,na,MG1655deltamarRAB,na,na,na,600,1H,LB,30C,Total,276208,100.0,100.0,"(1.00,100000.04)",6694,95.59,90.12,72.9,214.23,237.72,72.92,381.34
+20150319,marR,MG1655deltamarRAB,na,na,wild-type,600,1H,LB,30C,Total,437311,100.0,100.0,"(1.00,100000.04)",11717,424.08,328.1,295.52,225.38,68.69,51.66,1.28
+20150319,marR,MG1655deltamarRAB,mut1,na,library,600,1H,LB,30C,Total,327551,100.0,100.0,"(1.00,100000.04)",6999,95.59,142.1,91.37,204.9,144.19,93.67,27.04
+20150319,marR,MG1655deltamarRAB,mut2,na,library,600,1H,LB,30C,Total,343680,100.0,100.0,"(1.00,100000.04)",7218,114.5,144.12,104.62,153.37,106.42,95.65,26.53
+20150319,marR,MG1655deltamarR,na,na,wild-type,600,1H,LB,30C,Total,392127,100.0,100.0,"(1.00,100000.04)",8516,531.48,345.66,282.48,288.08,83.34,55.29,1.85
+20150319,marR,MG1655deltamarR,mut1,na,library,600,1H,LB,30C,Total,328689,100.0,100.0,"(1.00,100000.04)",7070,104.62,145.61,95.59,204.1,140.17,84.92,8.16
+20150319,marR,MG1655deltamarR,mut2,na,library,600,1H,LB,30C,Total,342531,100.0,100.0,"(1.00,100000.04)",6894,104.62,157.78,104.62,168.29,106.66,104.69,4.24

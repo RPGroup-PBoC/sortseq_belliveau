@@ -1,0 +1,24 @@
+# Comments about run:
+# date: 20170205
+# These measurements were for sorting of the
+# yebG promoter with or without mitomycin C,
+# as well as the purT promoter with mitomycin C
+# present (to see if it modifies the promoter any)
+# Addition of mitomycin C was at 1 microgram/ml.
+date,promoter,strain,region,bin,sequence,voltage,gain,media,condition,Region,Count,%Hist,%All,Bounds,ModeCount,Mode,Mean,Median,StdDev.,CV,CV(hm),Skew
+20170205,na,MG1655,na,na,na,700,2H,M9glucose,na,Total,128466,100.0,100.0,"(1.00,100000.04)",3503,8.35,8.82,7.63,5.77,65.44,70.08,2.62
+20170205,na,MG1655,na,na,na,700,2H,M9glucose,mitomycinC,Total,200791,100.0,100.0,"(1.00,100000.04)",4784,12.53,13.16,10.46,9.62,73.1,81.17,1.74
+20170205,purT,MG1655,na,na,wild-type,700,2H,M9glucose,na,Total,200442,100.0,100.0,"(1.00,100000.04)",4720,22.54,22.7,17.98,19.17,84.44,72.92,2.88
+20170205,purT,MG1655,na,na,wild-type,700,2H,M9glucose,mitomycinC,Total,200041,100.0,100.0,"(1.00,100000.04)",6412,119.79,96.12,91.37,55.5,57.75,44.82,0.9
+20170205,purT,MG1655,mut1,na,library,700,2H,M9glucose,na,Total,200462,100.0,100.0,"(1.00,100000.04)",3206,17.19,34.95,17.98,61.03,174.62,169.24,10.64
+20170205,purT,MG1655,mut1,na,library,700,2H,M9glucose,mitomycinC,Total,200180,100.0,100.0,"(1.00,100000.04)",2805,29.55,101.62,40.54,213.41,210.02,296.94,11.23
+20170205,purT,MG1655,mut2,na,library,700,2H,M9glucose,na,Total,200490,100.0,100.0,"(1.00,100000.04)",4271,18.82,29.52,16.43,67.62,229.05,81.8,33.75
+20170205,purT,MG1655,mut2,na,library,700,2H,M9glucose,mitomycinC,Total,200029,100.0,100.0,"(1.00,100000.04)",5009,76.27,119.84,69.68,231.3,193.01,65.44,8.76
+20170205,xylE,MG1655,na,na,wild-type,700,2H,M9glucose,na,Total,116462,100.0,100.0,"(1.00,100000.04)",3223,7.98,8.71,7.29,5.66,64.98,70.08,1.92
+20170205,xylE,MG1655,na,na,wild-type,700,2H,M9glucose,mitomycinC,Total,200738,100.0,100.0,"(1.00,100000.04)",4751,13.72,14.6,11.98,10.71,73.33,84.92,1.67
+20170205,yebG,MG1655,na,na,wild-type,700,2H,M9glucose,na,Total,200267,100.0,100.0,"(1.00,100000.04)",4871,30.92,36.5,27.0,118.6,324.93,71.57,64.32
+20170205,yebG,MG1655,na,na,wild-type,700,2H,M9glucose,mitomycinC,Total,200004,100.0,100.0,"(1.00,100000.04)",7916,7626.99,7380.03,6968.47,3647.9,49.43,43.84,0.69
+20170205,yebG,MG1655,mut1,na,library,700,2H,M9glucose,na,Total,200398,100.0,100.0,"(1.00,100000.04)",3606,28.25,38.51,21.54,124.81,324.08,95.4,47.3
+20170205,yebG,MG1655,mut1,na,library,700,2H,M9glucose,mitomycinC,Total,200058,100.0,100.0,"(1.00,100000.04)",3288,5080.22,2348.11,531.48,2960.63,126.09,48.19,1.33
+20170205,yebG,MG1655,mut2,na,library,700,2H,M9glucose,na,Total,200361,100.0,100.0,"(1.00,100000.04)",2655,21.54,142.7,30.92,342.95,240.33,185.74,7.78
+20170205,yebG,MG1655,mut2,na,library,700,2H,M9glucose,mitomycinC,Total,200085,100.0,100.0,"(1.00,100000.04)",1882,69.68,1631.92,235.8,2710.5,166.09,567.52,2.36

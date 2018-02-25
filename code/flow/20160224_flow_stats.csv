@@ -1,0 +1,26 @@
+# Comments about run
+# date: 20160224
+# This was a sort with libraries where only the TF binding sites were mutated.
+# relBE: M9 glucose; marRAB: LB 30C
+# I also tested out a promoter plasmid of relBE where a spacer (1kb; approx) was
+# placed between the native rbs and the GFP rbs to reduce coupling. It doesn't
+# appear to be working (expression is super low), even in non-mutated version.
+date,promoter,strain,region,bin,sequence,voltage,gain,media,condition,Region,Count,%Hist,%All,Bounds,ModeCount,Mode,Mean,Median,StdDev.,CV,CV(hm),Skew
+20160224,na,MG1655,na,na,na,700,1H,M9glucose,na,Total,157832,100.0,100.0,"(1.00,100000.04)",3901,30.92,33.15,27.0,51.42,155.1,74.87,269.98
+20160224,relB,MG1655,na,na,wild-type,700,1H,M9glucose,na,Total,372837,100.0,100.0,"(1.00,100000.04)",10407,171.91,173.43,150.13,197.67,113.98,65.44,171.93
+20160224,relB,MG1655,mut1,na,library,700,1H,M9glucose,na,Total,396057,100.0,100.0,"(1.00,100000.04)",4221,150.13,508.19,179.85,894.66,176.05,457.12,5.28
+20160224,relB,MG1655,mut_relBEonly_purchased,na,library,700,1H,M9glucose,na,Total,475689,100.0,100.0,"(1.00,100000.04)",8275,1643.18,1115.14,797.92,1158.31,103.87,68.79,3.42
+20160224,relB,MG1655,mut_relBEonly_purchased,na,library,700,1H,M9glucose,low_presort_check,Total,3112,100.0,100.0,"(1.00,100000.04)",118,2253.93,2309.93,2059.33,2280.2,98.71,35.39,10.35
+20160224,relB,MG1655,mut_relBEonly_purchased,na,library,700,1H,M9glucose,high_presort_check,Total,2432,100.0,100.0,"(1.00,100000.04)",48,150.13,312.63,109.45,620.65,198.53,43.95,4.52
+20160224,relB,MG1655,mut_relBEonly_purchased,1,library,700,1H,M9glucose,na,Total,464890,100.0,100.0,"(1.00,100000.04)",5785,338.39,1393.29,485.6,2002.71,143.74,653.01,2.65
+20160224,relB,MG1655,mut_relBEonly_purchased,2,library,700,1H,M9glucose,na,Total,475081,100.0,100.0,"(1.00,100000.04)",6826,295.52,1067.06,424.08,1479.06,138.61,515.35,3.11
+20160224,relB,MG1655,mut_relBEonly_purchased,3,library,700,1H,M9glucose,na,Total,475821,100.0,100.0,"(1.00,100000.04)",7056,1881.52,1204.69,729.03,1403.71,116.52,76.34,3.57
+20160224,relB,MG1655,mut_relBEonly_purchased,4,library,700,1H,M9glucose,na,Total,478928,100.0,100.0,"(1.00,100000.04)",8225,2358.03,1673.72,1145.05,1807.9,108.02,67.71,2.25
+20160224,marR,MG1655,mut2_marA_purchased,na,library,700,1H,LB,30C,Total,313157,100.0,100.0,"(1.00,100000.04)",7383,46.42,48.33,38.75,68.11,140.92,79.81,185.68
+20160224,marR,MG1655,mut1_marR_purchased,na,library,700,1H,LB,30C,Total,387358,100.0,100.0,"(1.00,100000.04)",7148,63.67,101.14,66.61,118.92,117.59,135.67,9.02
+20160224,marR,MG1655,mut2_marA_purchased,na,library,700,1H,LB,30C_high_presort_check,Total,3200,100.0,100.0,"(1.00,100000.04)",82,40.54,45.45,37.04,33.13,72.9,78.33,1.42
+20160224,marR,MG1655,mut2_marA_purchased,na,library,700,1H,LB,30C_low_presort_check,Total,3433,100.0,100.0,"(1.00,100000.04)",92,42.41,49.74,40.54,38.52,77.44,85.73,2.4
+20160224,marR,MG1655,mut1_marR_purchased,1,library,700,1H,LB,30C,Total,393009,100.0,100.0,"(1.00,100000.04)",7933,63.67,84.35,58.17,100.71,119.4,100.07,11.95
+20160224,marR,MG1655,mut1_marR_purchased,2,library,700,1H,LB,30C,Total,401697,100.0,100.0,"(1.00,100000.04)",8153,72.9,89.45,63.67,107.45,120.13,95.65,20.14
+20160224,marR,MG1655,mut1_marR_purchased,3,library,700,1H,LB,30C,Total,415537,100.0,100.0,"(1.00,100000.04)",8408,91.37,98.62,72.9,100.44,101.85,87.39,7.04
+20160224,marR,MG1655,mut1_marR_purchased,4,library,700,1H,LB,30C,Total,441074,100.0,100.0,"(1.00,100000.04)",7770,125.33,164.54,114.5,184.94,112.4,125.61,5.82

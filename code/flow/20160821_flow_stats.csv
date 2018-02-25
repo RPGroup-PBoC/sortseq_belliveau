@@ -1,0 +1,14 @@
+# Comments about run:
+# date: 20160821
+# JK10 cells growth in EZrich media with following supplements:
+# dgoR mut 3 promoter window. 
+# A) 0 cAMP , glucose
+# B) 500 uM cAMP, galactonate
+date,promoter,strain,region,bin,sequence,voltage,gain,media,condition,Region,Count,%Hist,%All,Bounds,ModeCount,Mode,Mean,Median,StdDev.,CV,CV(hm),Skew
+20160821,na,JK10,na,na,na,700,1H,EZrich_galactonate,500uM_cAMP,Total,362094,100.0,100.0,"(1.00,100000.04)",8324,48.56,54.22,42.41,62.41,115.1,84.22,105.4
+20160821,na,JK10,na,na,na,700,1H,EZrich_glucose,0uM_cAMP,Total,237727,100.0,100.0,"(1.00,100000.04)",5686,38.75,36.61,29.55,30.1,82.23,69.7,30.24
+20160821,dgoR,JK10,na,na,wild-type,700,1H,EZrich_glucose,0uM_cAMP,Total,342890,100.0,100.0,"(1.00,100000.04)",7937,50.8,51.34,42.41,47.25,92.05,80.51,52.13
+20160821,dgoR,JK10,mut3,na,library,700,1H,EZrich_glucose,0uM_cAMP,Total,355646,100.0,100.0,"(1.00,100000.04)",7168,55.6,96.41,50.8,236.17,244.96,90.19,16.36
+20160821,na,JK10,na,na,na,700,1H,EZrich_galactonate,500uM_cAMP,Total,352836,100.0,100.0,"(1.00,100000.04)",8063,46.42,52.07,40.54,48.01,92.21,84.92,5.67
+20160821,dgoR,JK10,na,na,wild-type,700,1H,EZrich_galactonate,500uM_cAMP,Total,490217,100.0,100.0,"(1.00,100000.04)",20741,2700.06,2491.84,2580.86,1938.92,77.81,35.66,9.71
+20160821,dgoR,JK10,na,na,library,700,1H,EZrich_galactonate,500uM_cAMP,Total,484045,100.0,100.0,"(1.00,100000.04)",6379,188.15,1224.64,338.39,2764.99,225.78,540.56,10.95

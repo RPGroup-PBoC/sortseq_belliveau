@@ -1,0 +1,10 @@
+# Comments about run:
+# date: 20160527
+# Cells containing xylE promoter libraries were sorted. There are three
+# different plasmid libraries (mut1, mut2, and mut3), each with a
+# different mutation window. Cells were grown in M9 xylose.
+date,promoter,strain,region,bin,sequence,voltage,gain,media,condition,Region,Count,%Hist,%All,Bounds,ModeCount,Mode,Mean,Median,StdDev.,CV,CV(hm),Skew
+20160527,na,MG1655,na,na,na,700,1H,M9glucose,na,Total,465665,100.0,100.0,"(1.00,100000.04)",16876,3540.13,3501.16,3234.48,1852.36,52.91,49.28,1.49
+20160527,xylE,MG1655,mut1,na,library,900,1H,M9xylose,na,Total,431771,100.0,100.0,"(1.00,100000.04)",7632,3091.69,3768.91,2466.93,4642.0,123.17,105.99,4.43
+20160527,xylE,MG1655,mut2,na,library,900,1H,M9xylose,na,Total,247667,100.0,100.0,"(1.00,100000.04)",5104,424.08,804.54,424.08,1612.63,200.44,88.11,10.29
+20160527,xylE,MG1655,mut3,na,library,900,1H,M9xylose,na,Total,333215,100.0,100.0,"(1.00,100000.04)",5371,608.57,1530.33,729.03,2822.88,184.46,165.99,8.07

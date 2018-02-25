@@ -1,0 +1,46 @@
+# Comments about run:
+# date: 20170227
+note: all measurements with FL1 700V and 1.3H for dgoRmut4, dgor simple repression and xylR are actually 600V and 1.3H;
+# I was paying attention to SSC and initially labelled
+# the settings incorrectly.
+# I re-grew sorted cells from 20170226. It doesn’t look like
+# mut4 glucose or purRO_synthetic (no adenine) actually sorted; I am going to resort these.
+date,promoter,strain,region,bin,sequence,voltage,gain,media,condition,Region,Count,%Hist,%All,Bounds,ModeCount,Mode,Mean,Median,StdDev.,CV,CV(hm),Skew
+20170227,dgoR,MG1655,mut4,na,library,700,1.3H,M9galactonate,na,Total,193418,100.0,100.0,"(1.00,100000.04)",4715,29.55,28.72,23.58,21.6,75.2,71.57,8.85
+20170227,dgoR,MG1655,mut4,na,library,700,1.3H,M9glucose,na,Total,482371,100.0,100.0,"(1.00,100000.04)",15377,2824.75,2449.49,2253.93,1652.89,67.48,48.1,4.21
+20170227,dgoR,MG1655,na,na,wild-type,700,1.3H,M9galactonate,na,Total,474039,100.0,100.0,"(1.00,100000.04)",11153,95.59,116.6,83.48,182.62,156.63,74.11,26.72
+20170227,dgoR,MG1655,na,na,wild-type,700,1.3H,M9glucose,na,Total,276519,100.0,100.0,"(1.00,100000.04)",11246,2700.06,2862.16,2700.06,1872.96,65.44,42.65,3.05
+20170227,na,MG1655,na,na,na,700,1.3H,M9glucose,na,Total,448419,100.0,100.0,"(1.00,100000.04)",10704,76.27,69.66,58.17,53.09,76.22,69.07,6.13
+20170227,dgoR,MG1655,mut4,na,library,700,1.3H,M9galactonate,na,Total,181891,100.0,100.0,"(1.00,100000.04)",4670,9.14,9.42,7.98,7.04,74.75,71.57,35.92
+20170227,dgoR,MG1655,mut4,na,library,700,1.3H,M9glucose,na,Total,480275,100.0,100.0,"(1.00,100000.04)",15175,762.7,732.77,666.08,508.71,69.42,52.65,7.91
+20170227,dgoR,MG1655,mut4,1,library,700,1.3H,M9glucose,na,Total,467543,100.0,100.0,"(1.00,100000.04)",10901,29.55,35.7,25.81,60.32,168.96,74.87,73.0
+20170227,dgoR,MG1655,mut4,2,library,700,1.3H,M9glucose,na,Total,446262,100.0,100.0,"(1.00,100000.04)",10155,24.67,28.28,20.59,42.82,151.43,76.29,23.08
+20170227,dgoR,MG1655,mut4,3,library,700,1.3H,M9glucose,na,Total,446246,100.0,100.0,"(1.00,100000.04)",10338,23.58,27.33,20.59,35.23,128.93,79.81,16.0
+20170227,dgoR,MG1655,mut4,4,library,700,1.3H,M9glucose,na,Total,447103,100.0,100.0,"(1.00,100000.04)",10181,28.25,28.12,20.59,41.35,147.04,66.63,21.58
+20170227,dgoR,MG1655,na,na,wild-type,700,1.3H,M9glucose,na,Total,452097,100.0,100.0,"(1.00,100000.04)",10180,25.81,31.84,22.54,51.84,162.82,76.29,27.91
+20170227,dgoR,MG1655,na,na,wild-type,700,1.3H,M9galactonate,na,Total,309594,100.0,100.0,"(1.00,100000.04)",12568,797.92,888.95,797.92,720.62,81.06,42.65,11.8
+20170227,na,MG1655,na,na,na,600,1.3H,M9glucose,na,Total,433792,100.0,100.0,"(1.00,100000.04)",10440,22.54,21.26,17.98,15.79,74.3,69.07,2.89
+20170227,purRO_synthetic,MG1655,na,1,library,600,1.3H,M9glucose,na,Total,193418,100.0,100.0,"(1.00,100000.04)",4715,29.55,28.72,23.58,21.6,75.2,71.57,8.85
+20170227,purRO_synthetic,MG1655,na,2,library,600,1.3H,M9glucose,na,Total,414290,100.0,100.0,"(1.00,100000.04)",5491,83.48,217.71,95.59,426.06,195.7,248.32,8.21
+20170227,purRO_synthetic,MG1655,na,3,library,600,1.3H,M9glucose,na,Total,403832,100.0,100.0,"(1.00,100000.04)",5415,83.48,194.54,87.33,373.25,191.86,226.88,8.53
+20170227,purRO_synthetic,MG1655,na,4,library,600,1.3H,M9glucose,na,Total,407646,100.0,100.0,"(1.00,100000.04)",5701,72.9,188.69,83.48,366.2,194.07,225.15,8.65
+20170227,purRO_synthetic,MG1655,na,1,library,600,1.3H,M9glucose,adenine_100,Total,411028,100.0,100.0,"(1.00,100000.04)",5517,100.0,202.41,91.37,385.49,190.45,189.06,7.99
+20170227,purRO_synthetic,MG1655,na,2,library,600,1.3H,M9glucose,adenine_100,Total,268955,100.0,100.0,"(1.00,100000.04)",6078,32.34,35.97,28.25,31.18,86.68,84.92,9.1
+20170227,purRO_synthetic,MG1655,na,3,library,600,1.3H,M9glucose,adenine_100,Total,458924,100.0,100.0,"(1.00,100000.04)",10752,79.79,84.66,66.61,81.64,96.44,72.26,4.73
+20170227,purRO_synthetic,MG1655,na,4,library,600,1.3H,M9glucose,adenine_100,Total,481846,100.0,100.0,"(1.00,100000.04)",12987,164.32,171.88,143.5,126.11,73.37,67.59,2.13
+20170227,dgoRO_synthetic,MG1655deltadgoR,na,1,library,100,1.3H,M9glucose,na,Total,369967,100.0,100.0,"(1.00,100000.04)",5574,37.04,147.72,55.6,185.79,125.77,103.27,1.95
+20170227,dgoRO_synthetic,MG1655deltadgoR,na,2,library,100,1.3H,M9glucose,na,Total,462836,100.0,100.0,"(1.00,100000.04)",9907,95.59,115.51,83.48,132.65,114.84,83.5,6.1
+20170227,dgoRO_synthetic,MG1655deltadgoR,na,3,library,100,1.3H,M9glucose,na,Total,498663,100.0,100.0,"(1.00,100000.04)",15776,323.45,348.39,295.52,237.11,68.06,55.63,2.99
+20170227,dgoRO_synthetic,MG1655deltadgoR,na,4,library,100,1.3H,M9glucose,na,Total,498742,100.0,100.0,"(1.00,100000.04)",18878,443.67,495.08,424.08,303.73,61.35,49.28,4.03
+20170227,dgoRO_synthetic,MG1655deltadgoR_ybcN<>3*1dgoR,na,1,library,100,1.3H,M9glucose,na,Total,498670,100.0,100.0,"(1.00,100000.04)",18229,485.6,613.69,508.02,405.47,66.07,55.08,3.89
+20170227,dgoRO_synthetic,MG1655deltadgoR_ybcN<>3*1dgoR,na,2,library,100,1.3H,M9glucose,na,Total,490155,100.0,100.0,"(1.00,100000.04)",11468,370.36,355.4,282.48,314.14,88.39,68.41,3.55
+20170227,dgoRO_synthetic,MG1655deltadgoR_ybcN<>3*1dgoR,na,3,library,100,1.3H,M9glucose,na,Total,493670,100.0,100.0,"(1.00,100000.04)",13336,338.39,360.17,295.52,286.45,79.53,63.74,4.59
+20170227,dgoRO_synthetic,MG1655deltadgoR_ybcN<>3*1dgoR,na,4,library,100,1.3H,M9glucose,na,Total,493497,100.0,100.0,"(1.00,100000.04)",13684,370.36,373.93,309.17,291.71,78.01,60.93,3.25
+20170227,xylRO_synthetic,MG1655deltaxylR,na,na,library,600,1.3H,M9glucose,na,Total,494313,100.0,100.0,"(1.00,100000.04)",13388,405.36,413.69,338.39,330.84,79.97,61.76,3.46
+20170227,xylRO_synthetic,MG1655deltaxylR,na,na,library,600,1.3H,M9glucose,xylose_added,Total,389927,100.0,100.0,"(1.00,100000.04)",6671,18.82,42.51,19.68,90.51,212.92,130.28,28.23
+20170227,xylRO_synthetic,MG1655deltaxylR,na,na,wild-type,600,1.3H,M9glucose,na,Total,389884,100.0,100.0,"(1.00,100000.04)",6770,18.82,39.84,19.68,81.19,203.76,130.86,13.42
+20170227,xylRO_synthetic,MG1655deltaxylR,na,na,wild-type,600,1.3H,M9glucose,xylose_added,Total,498825,100.0,100.0,"(1.00,100000.04)",17281,76.27,76.8,69.68,44.9,58.46,51.32,3.39
+20170227,xylRO_synthetic,MG1655deltaxylR_ybcN<>3*1xylR,na,na,library,600,1.3H,M9glucose,na,Total,478085,100.0,100.0,"(1.00,100000.04)",13247,76.27,66.48,58.17,50.03,75.25,53.17,2.97
+20170227,xylRO_synthetic,MG1655deltaxylR_ybcN<>3*1xylR,na,na,library,600,1.3H,M9glucose,xylose_added,Total,391018,100.0,100.0,"(1.00,100000.04)",6709,19.68,40.86,19.68,80.97,198.17,124.53,9.96
+20170227,xylRO_synthetic,MG1655deltaxylR_ybcN<>3*1xylR,na,na,wild-type,600,1.3H,M9glucose,na,Total,398112,100.0,100.0,"(1.00,100000.04)",6729,21.54,43.91,20.59,87.7,199.73,131.94,10.24
+20170227,xylRO_synthetic,MG1655deltaxylR_ybcN<>3*1xylR,na,na,wild-type,600,1.3H,M9glucose,xylose_added,Total,498234,100.0,100.0,"(1.00,100000.04)",16943,69.68,70.56,60.86,47.64,67.52,49.05,14.13

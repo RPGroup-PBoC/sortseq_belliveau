@@ -1,0 +1,23 @@
+# Comments about run:
+# date: 20160815
+# JK10 cells growth in EZrich:
+# for dgoR promoter:
+# A) Galactonate, 500 uM cAMP
+# B) glucose, 0 uM cAMP
+# C) glucose, 500 uM cAMP
+# for xylE promoter:
+# A) glucose, 0 cAMP
+# B) glucose, 500 uM cAMP
+# C) xylose, 500 uM cAMP
+# (xylose, 0 cAMP didn't seem to grow)
+date,promoter,strain,region,bin,sequence,voltage,gain,media,condition,Region,Count,%Hist,%All,Bounds,ModeCount,Mode,Mean,Median,StdDev.,CV,CV(hm),Skew
+20160815,dgoR,JK10,na,na,wild-type,700,1H,EZrich_galactonate,500uM_cAMP,Total,493668,100.0,100.0,"(1.00,100000.04)",13808,4641.59,4319.67,3540.13,6371.77,147.51,41.9,8.06
+20160815,dgoR,JK10,na,na,wild-type,700,1H,EZrich_glucose,0uM_cAMP,Total,451066,100.0,100.0,"(1.00,100000.04)",10906,150.13,135.7,114.5,103.23,76.07,66.99,2.36
+20160815,dgoR,JK10,na,na,wild-type,700,1H,EZrich_glucose,500uM_cAMP,Total,470365,100.0,100.0,"(1.00,100000.04)",11218,143.5,143.46,119.79,124.62,86.87,74.87,13.6
+20160815,na,JK10,na,na,na,700,1H,EZrich_glucose,0uM_cAMP,Total,329036,100.0,100.0,"(1.00,100000.04)",7627,44.37,42.95,35.4,32.36,75.36,77.58,3.3
+20160815,na,JK10,na,na,na,900,2H,EZrich_glucose,0uM_cAMP,Total,345530,100.0,100.0,"(1.00,100000.04)",7863,531.48,550.93,464.16,453.14,82.25,84.22,31.97
+20160815,na,JK10,na,na,na,900,2H,EZrich_glucose,0uM_cAMP,Total,451890,100.0,100.0,"(1.00,100000.04)",10995,76.27,79.86,66.61,64.15,80.32,74.87,3.48
+20160815,xylE,JK10,na,na,wild-type,900,2H,EZrich_glucose,0uM_cAMP,Total,460469,100.0,100.0,"(1.00,100000.04)",11510,1046.18,1047.72,873.33,825.65,78.8,70.08,3.23
+20160815,xylE,JK10,na,na,wild-type,900,2H,EZrich_glucose,500uM_cAMP,Total,349772,100.0,100.0,"(1.00,100000.04)",8116,581.71,554.15,464.16,446.07,80.5,76.95,16.14
+20160815,xylE,JK10,na,na,wild-type,700,2H,EZrich_xylose,500uM_cAMP,Total,432210,100.0,100.0,"(1.00,100000.04)",9728,955.86,868.46,696.85,733.07,84.41,69.7,3.0
+20160815,xylE,JK10,na,na,wild-type,900,2H,EZrich_xylose,500uM_cAMP,Total,494723,100.0,100.0,"(1.00,100000.04)",10577,2824.75,3113.34,2253.93,3633.97,116.72,66.68,3.61

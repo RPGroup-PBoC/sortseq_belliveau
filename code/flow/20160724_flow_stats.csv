@@ -1,0 +1,14 @@
+# Comments about run
+# date: 20160724
+# MG1655 delta dgoR, or delta purR grown in M9 glucose
+# Note a naming typo for purT mut1, which says delta purT but should say delta purR/
+# promoters:
+# dgoR mut1,2,3 promoter:
+# purT mut1 promoter - adenine (which should cause repression) was added at 100 ug/ml.
+date,promoter,strain,region,bin,sequence,voltage,gain,media,condition,Region,Count,%Hist,%All,Bounds,ModeCount,Mode,Mean,Median,StdDev.,CV,CV(hm),Skew
+20160724,na,MG1655,na,na,na,900,2H,M9glucose,na,Total,353086,100.0,100.0,"(1.00,100000.04)",7916,581.71,582.96,485.6,456.65,78.33,81.17,1.86
+20160724,dgoR,MG1655,na,na,wild-type,900,2H,M9glucose,na,Total,453857,100.0,100.0,"(1.00,100000.04)",10954,87.33,79.09,66.61,160.5,202.94,69.07,532.09
+20160724,dgoR,MG1655deltadgoR,na,na,wild-type,900,2H,M9glucose,na,Total,499668,100.0,100.0,"(1.00,100000.04)",27486,1145.05,1243.74,1145.05,555.86,44.69,32.58,10.41
+20160724,dgoR,MG1655deltadgoR,mut1,na,library,900,2H,M9glucose,na,Total,498335,100.0,100.0,"(1.00,100000.04)",15874,729.03,781.62,696.85,496.55,63.53,59.15,3.23
+20160724,dgoR,MG1655deltadgoR,mut1,na,library,900,2H,M9glucose,na,Total,496584,100.0,100.0,"(1.00,100000.04)",12748,323.45,563.07,370.36,628.85,111.68,72.99,4.56
+20160724,dgoR,MG1655deltadgoR,mut1,na,library,900,2H,M9glucose,na,Total,496206,100.0,100.0,"(1.00,100000.04)",8881,556.03,763.69,508.02,876.28,114.74,119.03,4.33

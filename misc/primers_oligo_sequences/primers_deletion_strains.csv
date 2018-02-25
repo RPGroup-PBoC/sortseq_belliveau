@@ -1,0 +1,19 @@
+# We follow the strategy of the Keio-collection deletion strains (Baba et al., 2006)
+# all other deletion strains were obtained from the Keio collection; from the E. coli stock center, Yale.
+# Note that dgoR deletion from E. coli stock center did not grow in LB and we made form scratch.
+name,type,sequence,comments
+NBS034_relE_P2_right,primer,GGTGCGAAACAGAGATGTCATGCTTTGGTTCAGAGAATGCGTTTGACCGGTGTAGGCTGGAGCTGCTTC,used to make deletion cassette with pKD4 (kan resistance)
+NBS035_relE_P1_left,primer,CGGCTTCGTAATCCTAAGCCAGTACGTGTGACGCTGGATGAACTCTGATGGGAATTAGCCATGGTCC,used to make deletion cassette with pKD4 (kan resistance)
+NBS036_relE_k2pair,primer,GCTTCGTCTCATGCTCGAGT,used to check deletion
+NBS037_relE_k1pair,primer,AGCCTGCTTCTCCTGTCAAC,used to check deletion
+NBS038_marR_P2_right,primer,GTCTGGACATCGTCATACCTCTTTTTTGTTTACGGCAGGACTTTCTTAAGTGTAGGCTGGAGCTGCTTC,used to make deletion cassette with pKD4 (kan resistance)
+NBS039_marR_P1_left,primer,TGGGCAATATTATCCCCTGCAACTAATTACTTGCCAGGGCAACTAATGTGATGGGAATTAGCCATGGTCC,used to make deletion cassette with pKD4 (kan resistance)
+NBS040_marR_k2pair,primer,ACGCGACAGTTGTTAATGGGT,used to check deletion
+NBS041_marR_k1pair,primer,TCCAGTGACAGTGGCGATTC,used to check deletion
+NBS042_marA_P2_right,primer,TTGCCTCAGTGACGTTGTCACGTTTTCAACTAGCTGTTGTAATGATTTAGTGTAGGCTGGAGCTGCTTC,used to make deletion cassette with pKD4 (kan resistance)
+NBS043_marA_P1_left,primer,GTATTTGCTTAAGAAAGTCCTGCCGTAAACAAAAAAGAGGTATGACGATGGGAATTAGCCATGGTCC,used to make deletion cassette with pKD4 (kan resistance)
+NBS044_marA_k2pair,primer,CCAGGACCTGCACCAAGAAT,used to check deletion
+NBS045_marA_k1pair,primer,GGAACAACCACGACATTGGC,used to check deletion
+dgoR_P2_right,primer,TCCCCAGTCAATTGCGATGTAGCGAGCTGTCATGTGATTTCCTTTAACC GTGTAGGCTGGAGCTGCTTC,used to make deletion cassette with pKD4 (kan resistance)
+dgoR_P1_left,primer,CGATCGGGGTAAAGTAGAGAAGAACATACAGAGCACAAGGACTCTCCATG GGAATTAGCCATGGTCC,used to make deletion cassette with pKD4 (kan resistance)
+dgoR_colPCR_right,primer,GCAGATTGGTCGATCCCCAG,used to check deletiondgoR_colPCR_left,primer,ACAAAGTTGCCGCGTTATGC,used to check deletion

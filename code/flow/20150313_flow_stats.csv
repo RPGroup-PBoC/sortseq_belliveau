@@ -1,0 +1,13 @@
+# Comments about run
+# date: 20150313
+# After overnight growth of sorted cells (rel in MG1655 delta relE and MG1655
+# deltarelBE) were remeasured to confirm sorting (growth in M9 glucose).
+date,promoter,strain,region,bin,sequence,voltage,gain,media,condition,Region,Count,%Hist,%All,Bounds,ModeCount,Mode,Mean,Median,StdDev.,CV,CV(hm),Skew
+20150313,relB,MG1655deltarelBE,mut1,bin1,wild-type,600,1H,M9glucose,na,Total,396357,100.0,100.0,"(1.00,100000.04)",5925,188.15,645.14,215.44,1568.6,243.14,176.03,7.7
+20150313,relB,MG1655deltarelBE,mut1,bin2,wild-type,600,1H,M9glucose,na,Total,419369,100.0,100.0,"(1.00,100000.04)",6526,246.69,611.44,235.8,1416.44,231.66,132.45,7.71
+20150313,relB,MG1655deltarelBE,mut1,bin3,wild-type,600,1H,M9glucose,na,Total,457486,100.0,100.0,"(1.00,100000.04)",8151,873.33,1002.02,636.68,1489.55,148.66,88.48,6.62
+20150313,relB,MG1655deltarelBE,mut1,bin4,wild-type,600,1H,M9glucose,na,Total,465196,100.0,100.0,"(1.00,100000.04)",8353,3703.63,3230.7,2059.33,3805.31,117.79,78.77,2.63
+20150313,relB,MG1655deltarelE,mut1,bin1,wild-type,600,1H,M9glucose,na,Total,341401,100.0,100.0,"(1.00,100000.04)",6051,109.45,363.23,119.79,1072.07,295.15,116.67,9.66
+20150313,relB,MG1655deltarelE,mut1,bin2,wild-type,600,1H,M9glucose,na,Total,396224,100.0,100.0,"(1.00,100000.04)",6460,188.15,428.83,179.85,1057.37,246.57,131.94,9.61
+20150313,relB,MG1655deltarelE,mut1,bin3,wild-type,600,1H,M9glucose,na,Total,458716,100.0,100.0,"(1.00,100000.04)",8294,636.68,771.53,508.02,1099.46,142.5,97.39,7.51
+20150313,relB,MG1655deltarelE,mut1,bin4,wild-type,600,1H,M9glucose,na,Total,471735,100.0,100.0,"(1.00,100000.04)",8432,3703.63,3128.3,2059.33,3518.84,112.48,73.42,2.77

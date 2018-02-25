@@ -1,0 +1,10 @@
+# Comments about run
+# date: 20151128
+# This was a sort with only the marA TF binding site mutated (mut1 mar).
+# I also looked at relBE TF only and marR (mar mut1) only, for sorting.
+# marRAB: LB 30C; relBE: M9 glucose 37C
+date,promoter,strain,region,bin,sequence,voltage,gain,media,condition,Region,Count,%Hist,%All,Bounds,ModeCount,Mode,Mean,Median,StdDev.,CV,CV(hm),Skew
+20151128,na,MG1655,na,na,wild-type,550,1H,M9glucose,na,Total,10668,100.0,100.0,"(1.00,100000.04)",368,6.66,37.58,6.09,1283.0,3413.82,53.17,42.32
+20151128,relB,MG1655,mut_relBEonly_purchased,na,library,550,1H,M9glucose,na,Total,88840,100.0,100.0,"(1.00,100000.04)",1707,131.11,153.44,114.5,389.62,253.93,96.44,113.67
+20151128,marR,MG1655,mut1_marR_purchased,na,library,550,1H,LB,30C,Total,35138,100.0,100.0,"(1.00,100000.04)",859,8.73,14.47,8.73,296.99,2052.37,92.94,186.62
+20151128,marR,MG1655,mut2_marA_purchased,na,library,550,1H,LB,30C,Total,22566,100.0,100.0,"(1.00,100000.04)",679,6.97,7.81,6.66,5.97,76.45,73.32,20.9

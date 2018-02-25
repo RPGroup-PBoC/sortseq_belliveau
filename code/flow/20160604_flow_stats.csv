@@ -1,0 +1,33 @@
+# Comments about run:
+# date: 20160604
+# dgoR related:
+# Cells were grown in M9 galactonate for sorting the three different plasmid
+# libraries (mut1, mut2, and mut3 which correspond to the three mutation windows).
+# purT and xylE related:
+# Regrowth and measurement of sorted cells. Only the low and high bins
+# were measured to confirm that cells were sorted (three mutated windows).
+# A) purT promoter grown in M9 glucose.
+# B) xylE promoter grown in M9 xylose.
+# In addition, cells containing purT promoter were grown in M9 glucose
+# with 100 ug/ml adenine supplemented. These were sorted.
+date,promoter,strain,region,bin,sequence,voltage,gain,media,condition,Region,Count,%Hist,%All,Bounds,ModeCount,Mode,Mean,Median,StdDev.,CV,CV(hm),Skew
+20160604,na,MG1655,na,na,na,700,1H,M9glucose,na,Total,322884,100.0,100.0,"(1.00,100000.04)",7381,42.41,39.84,32.34,56.05,140.68,72.92,63.14
+20160604,dgoR,MG1655,mut1,na,library,700,1H,M9galactonate,na,Total,464450,100.0,100.0,"(1.00,100000.04)",14515,4053.62,4539.12,4053.62,3128.18,68.92,59.85,2.52
+20160604,dgoR,MG1655,mut2,na,library,700,1H,M9galactonate,na,Total,489549,100.0,100.0,"(1.00,100000.04)",10358,508.02,1710.31,636.68,2657.67,155.39,66.68,3.72
+20160604,dgoR,MG1655,mut3,na,library,700,1H,M9galactonate,na,Total,480736,100.0,100.0,"(1.00,100000.04)",6856,762.7,1351.15,729.03,1744.12,129.08,204.81,3.71
+20160604,na,MG1655,na,na,na,700,1H,M9glucose,na,Total,136920,100.0,100.0,"(1.00,100000.04)",3160,636.68,547.9,464.16,499.72,91.21,69.7,58.54
+20160604,purT,MG1655,mut1,1,library,900,1H,M9glucose,na,Total,311890,100.0,100.0,"(1.00,100000.04)",6161,797.92,900.73,636.68,1019.23,113.16,86.82,10.88
+20160604,purT,MG1655,mut1,4,library,900,1H,M9glucose,na,Total,395654,100.0,100.0,"(1.00,100000.04)",8646,6085.75,8042.42,5560.3,8761.99,108.95,84.22,3.73
+20160604,purT,MG1655,mut2,1,library,900,1H,M9glucose,na,Total,387114,100.0,100.0,"(1.00,100000.04)",10135,1798.47,1654.55,1371.69,1325.28,80.1,59.79,10.63
+20160604,purT,MG1655,mut2,4,library,900,1H,M9glucose,na,Total,268387,100.0,100.0,"(1.00,100000.04)",5198,2358.03,7130.49,2955.21,9654.15,135.39,72.49,2.76
+20160604,purT,MG1655,mut3,1,library,900,1H,M9glucose,na,Total,49033,100.0,100.0,"(1.00,100000.04)",1455,1968.42,1964.04,1719.07,1366.54,69.58,60.06,3.9
+20160604,purT,MG1655,mut3,4,library,900,1H,M9glucose,na,Total,48950,100.0,100.0,"(1.00,100000.04)",1405,1881.52,1801.85,1570.65,1664.23,92.36,59.03,18.09
+20160604,purT,MG1655,mut1,na,library,900,1H,M9glucose,adenine_100,Total,415391,100.0,100.0,"(1.00,100000.04)",5941,797.92,3508.92,1000.0,7422.67,211.54,174.29,5.65
+20160604,purT,MG1655,mut2,na,library,900,1H,M9glucose,adenine_100,Total,411718,100.0,100.0,"(1.00,100000.04)",7972,797.92,1307.47,696.85,2776.28,212.34,86.21,13.43
+20160604,purT,MG1655,mut3,na,library,900,1H,M9glucose,adenine_100,Total,403021,100.0,100.0,"(1.00,100000.04)",9115,696.85,733.53,581.71,694.3,94.65,84.22,13.59
+20160604,xylE,MG1655,mut1,1,library,900,1H,M9xylose,na,Total,358660,100.0,100.0,"(1.00,100000.04)",5717,1435.04,2311.5,1253.25,3237.46,140.06,161.31,6.37
+20160604,xylE,MG1655,mut1,4,library,900,1H,M9xylose,na,Total,395391,100.0,100.0,"(1.00,100000.04)",11218,21544.36,24219.4,20593.29,16276.02,67.2,67.59,1.53
+20160604,xylE,MG1655,mut2,1,library,900,1H,M9xylose,na,Total,315219,100.0,100.0,"(1.00,100000.04)",6634,729.03,868.12,636.68,1025.19,118.09,89.53,14.03
+20160604,xylE,MG1655,mut2,4,library,900,1H,M9xylose,na,Total,379654,100.0,100.0,"(1.00,100000.04)",6522,6085.75,6870.91,4436.69,8427.71,122.66,92.56,3.31
+20160604,xylE,MG1655,mut3,1,library,900,1H,M9xylose,na,Total,341451,100.0,100.0,"(1.00,100000.04)",6543,955.86,1262.66,834.77,1708.21,135.29,106.59,12.11
+20160604,xylE,MG1655,mut3,4,library,900,1H,M9xylose,na,Total,395298,100.0,100.0,"(1.00,100000.04)",8511,9136.6,11945.92,8733.26,11783.41,98.64,88.84,2.7

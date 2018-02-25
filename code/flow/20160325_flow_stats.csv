@@ -1,0 +1,36 @@
+# Comments about run:
+# date: 20160325
+# Here I was measuring the fluorescence of new promoter plasmids in MG1655.
+# 8 new promoters, plus I also looked at rel in stationary phase versus
+# exponential. The conditions for the other ones were based on observations in
+# Schmidt 2015 et al., and a couple other papers that suggested these unannotated
+# genes might actually be regulated. Three (dgoR, xylE, pur) looked most encouraging.
+# ybeD (stationary phage versus exponential; in M9 glucose)
+# ydmF (stationary phage versus exponential; in M9 glucose)
+# dgoR (galactose versus glucose; M9)
+# xylE (glucose versus xylose; M9)
+# purT (adenine versus no supplement; M9 glucose)
+# hicA (glucose versus glycerol + amino acid supplement; M9)
+# adeP (adenine versus no supplement; M9 glucose)
+# yieH (adenine versus no supplement; M9 glucose)
+date,promoter,strain,region,bin,sequence,voltage,gain,media,condition,Region,Count,%Hist,%All,Bounds,ModeCount,Mode,Mean,Median,StdDev.,CV,CV(hm),Skew
+20160325,na,MG1655,na,na,na,700,1H,M9glucose,na,Total,117998,100.0,100.0,"(1.00,100000.04)",2753,32.34,33.43,27.0,31.36,93.81,80.51,70.78
+20160325,adeP,MG1655,na,na,wild-type,700,1H,M9glucose,na,Total,495375,100.0,100.0,"(1.00,100000.04)",13949,323.45,356.93,309.17,328.75,92.1,68.46,54.73
+20160325,adeP,MG1655,na,na,wild-type,700,1H,M9glucose,adenine_100,Total,142940,100.0,100.0,"(1.00,100000.04)",3486,188.15,208.8,164.32,209.02,100.11,74.87,19.27
+20160325,dgoR,MG1655,na,na,wild-type,700,1H,M9galactonate,na,Total,492238,100.0,100.0,"(1.00,100000.04)",13526,1311.13,1977.23,1253.25,4028.24,203.73,64.61,10.27
+20160325,dgoR,MG1655,na,na,wild-type,700,1H,M9galactose,na,Total,465805,100.0,100.0,"(1.00,100000.04)",12144,171.91,160.27,137.17,117.8,73.5,63.31,11.64
+20160325,dgoR,MG1655,na,na,wild-type,700,1H,M9glucose,na,Total,361656,100.0,100.0,"(1.00,100000.04)",8116,76.27,80.41,63.67,81.34,101.16,84.22,37.74
+20160325,hicA,MG1655,na,na,wild-type,700,1H,M9glucose,na,Total,70420,100.0,100.0,"(1.00,100000.04)",1571,76.27,73.48,58.17,64.58,87.89,76.29,6.59
+20160325,hicA,MG1655,na,na,wild-type,700,1H,M9glycerol,cas_aminoacids_supplement,Total,79525,100.0,100.0,"(1.00,100000.04)",1821,83.48,90.7,72.9,74.62,82.28,84.22,2.38
+20160325,purT,MG1655,na,na,wild-type,700,1H,M9glucose,na,Total,412064,100.0,100.0,"(1.00,100000.04)",9132,119.79,119.49,91.37,129.27,108.19,70.31,23.47
+20160325,purT,MG1655,na,na,wild-type,700,1H,M9glucose,adenine_100,Total,38094,100.0,100.0,"(1.00,100000.04)",861,44.37,42.83,32.34,125.78,293.64,74.16,151.15
+20160325,relB,MG1655,na,na,wild-type,700,1H,M9glucose,na,Total,94566,100.0,100.0,"(1.00,100000.04)",2632,424.08,440.5,370.36,304.65,69.16,68.46,1.57
+20160325,relB,MG1655,na,na,wild-type,700,1H,M9glucose,stationary,Total,99293,100.0,100.0,"(1.00,100000.04)",2640,387.47,435.2,370.36,299.06,68.72,77.54,1.61
+20160325,xylE,MG1655,na,na,wild-type,700,1H,M9glucose,na,Total,109967,100.0,100.0,"(1.00,100000.04)",2591,37.04,34.98,27.0,110.73,316.54,66.02,260.77
+20160325,xylE,MG1655,na,na,wild-type,700,1H,M9xylose,na,Total,98915,100.0,100.0,"(1.00,100000.04)",3045,405.36,422.17,370.36,261.86,62.03,60.06,6.63
+20160325,ybeD,MG1655,na,na,wild-type,700,1H,M9glucose,na,Total,99636,100.0,100.0,"(1.00,100000.04)",3071,370.36,432.81,370.36,320.55,74.06,69.76,16.17
+20160325,ybeD,MG1655,na,na,wild-type,700,1H,M9glucose,stationary,Total,99801,100.0,100.0,"(1.00,100000.04)",2759,762.7,756.66,636.68,497.14,65.7,66.99,4.92
+20160325,ydmF,MG1655,na,na,wild-type,700,1H,M9glucose,na,Total,47774,100.0,100.0,"(1.00,100000.04)",1095,53.15,46.45,37.04,79.55,171.26,67.2,140.58
+20160325,ydmF,MG1655,na,na,wild-type,700,1H,M9glucose,stationary,Total,52276,100.0,100.0,"(1.00,100000.04)",1177,48.56,47.19,37.04,40.12,85.02,76.95,6.21
+20160325,yieH,MG1655,na,na,wild-type,700,1H,M9glucose,na,Total,355523,100.0,100.0,"(1.00,100000.04)",8012,83.48,73.2,60.86,65.74,89.81,70.31,15.22
+20160325,yieH,MG1655,na,na,wild-type,700,1H,M9glucose,adenine_100,Total,366139,100.0,100.0,"(1.00,100000.04)",8344,87.33,74.13,60.86,77.76,104.89,66.63,37.92

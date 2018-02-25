@@ -1,0 +1,23 @@
+# Comments about run
+# date: 20160311
+# mar related:
+# Here only the marA region of the mut 2 region of the mar promoter was mutated.
+# This was previously sorted into two bins, and here they were re-measured to
+# see if there was a difference.
+# rel related:
+# Our expectation is that 4 bins is sufficient in general for use to be able to
+# produce good information footprints as well as infer energy models. To test this
+# we considered sorting into different binning schemes than usual.
+# 1. regular sorting: 4 15% windows
+# 2. 4 bins , 25% windows
+# 3. 8 bins, 10-12.5% windows
+date,promoter,strain,region,bin,sequence,voltage,gain,media,condition,Region,Count,%Hist,%All,Bounds,ModeCount,Mode,Mean,Median,StdDev.,CV,CV(hm),Skew
+20160311,marR,MG1655deltamarR,mut2_marA_purchased,na,library,700,1H,LB,30C,Total,379498,100.0,100.0,"(1.00,100000.04)",7321,72.9,89.94,66.61,79.25,88.12,117.9,3.84
+20160311,marR,MG1655deltamarR,mut2_marA_purchased,1,library,700,1H,LB,30C,Total,6368,100.0,100.0,"(1.00,100000.04)",150,48.56,57.88,44.37,50.29,86.89,84.86,4.26
+20160311,marR,MG1655deltamarR,mut2_marA_purchased,4,library,700,1H,LB,30C,Total,9595,100.0,100.0,"(1.00,100000.04)",268,164.32,138.72,125.33,93.68,67.53,56.54,1.15
+20160311,na,MG1655,na,na,na,700,1H,LB,30C,Total,167719,100.0,100.0,"(1.00,100000.04)",4067,40.54,36.49,29.55,28.77,78.85,66.02,13.23
+20160311,na,MG1655,na,na,na,700,1H,M9glucose,na,Total,167719,100.0,100.0,"(1.00,100000.04)",4067,40.54,36.49,29.55,28.77,78.85,66.02,13.23
+20160311,relB,MG1655,na,na,wild-type,700,1H,M9glucose,na,Total,498267,100.0,100.0,"(1.00,100000.04)",15154,338.39,361.42,309.17,265.91,73.57,59.15,20.41
+20160311,relB,MG1655,mut1,na,library,700,1H,M9glucose,na,Total,415211,100.0,100.0,"(1.00,100000.04)",4381,258.09,738.54,270.01,1301.12,176.17,382.29,5.74
+20160311,relB,MG1655,mut1,1,library,700,1H,M9glucose,na,Total,6284,100.0,100.0,"(1.00,100000.04)",137,63.67,148.73,50.8,554.35,372.72,70.31,14.38
+20160311,relB,MG1655,mut1,4,library,700,1H,M9glucose,na,Total,9182,100.0,100.0,"(1.00,100000.04)",199,1371.69,2036.54,1311.13,2517.77,123.63,88.78,4.87

@@ -1,0 +1,18 @@
+# Primers used to construct promoter plasmids (wild-type).
+# BBrev and BBfwd are used to amplify the plasmid backbone, while the other 'extractpromoter'
+# are used to amplify the promoter region from E. coli strain MG1655
+name,type,sequence,comments
+NBS005_BBrev,primer,CTCGAGGTGAAGACGAAAGGG,used to extract pSC101 backbone (using kan resistance)
+NBS006_BBfwd,primer,GGATCCCGGGATCCTCTAGA,used to extract pSC101 backbone (using kan resistance)
+NBS001_mar_extractpromoter_rev,primer,TCTAGAGGATCCCGGGATCC TCCAGCGGAGACAGATACTCG,
+NBS002_mar_extractpromoter_fwd,primer,CCCTTTCGTCTTCACCTCGAG ACGCGACAGTTGTTAATGGGT,
+NBS003_rel_extractpromoter_rev,primer,TCTAGAGGATCCCGGGATCC AGCATGAGACGAAGCGCTTC,
+NBS004_rel_extractpromoter_fwd,primer,CCCTTTCGTCTTCACCTCGAG AAACGAGCTGACCTGCACAA ,
+NBS100_purT_extractpromoter_fwd,primer,CCCTTTCGTCTTCACCTCGAG CTCACGAATGACTACGTATTTAAC ,
+NBS101_purT_extractpromoter_rev,primer,TCTAGAGGATCCCGGGATCC GCTGCCGGACGCAGCG,
+NBS114_xylE_extractpromoter_fwd,primer,CCCTTTCGTCTTCACCTCGAG TCAACGGCCTGACGGCAG,
+NBS115_xylE_extractpromoter_rev,primer,TCTAGAGGATCCCGGGATCC GAAAATATATAACTGGAATTATACTGG,
+NBS106_dgoR_extractpromoter_fwd,primer,CCCTTTCGTCTTCACCTCGAG GCAGCCTTAAAAAATCCCTT,
+NBS107_dgoR_extractpromoter_rev,primer,TCTAGAGGATCCCGGGATCC GTAATGACAATGCGATCGGT,
+NBS152_purTprom_extract_fwd,primer,TCTAGAGGATCCCGGGATC CTCACGAATGACTACGTATTTAAC,used to extract purT promoter and provide homology to reverse orientation such that transcription of GFP represents expression of yebG promoter
+NBS153_purTprom_extract_rev,primer,CCCTTTCGTCTTCACCTCGAG CGCTGCCGGACGCAGCG,used to extract purT promoter and provide homology to reverse orientation such that transcription of GFP represents expression of yebG promoter

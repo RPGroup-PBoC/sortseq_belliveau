@@ -1,0 +1,28 @@
+# Comments about run:
+# date: 20170229
+# Looked at regrowth of dgoR mut4 in M9 glucose, dgoR
+# simple repression constructs, and purR simple repression
+# constructs (purRO constructs was in M9 glcuose with or without
+adenine added at 100 ng/ul.). Note that bin 3 was bimodal with an axtra peak at high fluorescence This bin was re-sorted to seperate the two. Sorting looks good overall.
+# note: Several bin histograms appear backwards - they are actually backwards. I mislabelled the tubes
+# during regrowth.
+date,promoter,strain,region,bin,sequence,voltage,gain,media,condition,Region,Count,%Hist,%All,Bounds,ModeCount,Mode,Mean,Median,StdDev.,CV,CV(hm),Skew
+20170229,dgoR,MG1655,mut4,1,library,700,1H,M9glucose,na,Total,460672,100.0,100.0,"(1.00,100000.04)",11416,95.59,92.19,76.27,68.32,74.11,70.84,2.36
+20170229,dgoR,MG1655,mut4,2,library,700,1H,M9glucose,na,Total,472217,100.0,100.0,"(1.00,100000.04)",12090,100.0,103.04,87.33,74.76,72.55,73.32,2.37
+20170229,dgoR,MG1655,mut4,3,library,700,1H,M9glucose,na,Total,486045,100.0,100.0,"(1.00,100000.04)",7563,1311.13,846.72,323.45,1063.54,125.61,64.74,2.58
+20170229,dgoR,MG1655,mut4,4,library,700,1H,M9glucose,na,Total,483660,100.0,100.0,"(1.00,100000.04)",10348,137.17,221.59,131.11,406.27,183.34,88.11,13.29
+20170229,purRO_synthetic,MG1655,na,1,library,700,1H,M9glucose,na,Total,372895,100.0,100.0,"(1.00,100000.04)",7281,60.86,72.1,50.8,76.54,106.16,96.84,5.18
+20170229,purRO_synthetic,MG1655,na,2,library,700,1H,M9glucose,na,Total,423539,100.0,100.0,"(1.00,100000.04)",7607,100.0,112.49,72.9,122.99,109.34,98.91,3.44
+20170229,purRO_synthetic,MG1655,na,3,library,700,1H,M9glucose,na,Total,476647,100.0,100.0,"(1.00,100000.04)",9369,225.39,238.23,179.85,224.47,94.23,92.01,2.91
+20170229,purRO_synthetic,MG1655,na,4,library,700,1H,M9glucose,na,Total,497342,100.0,100.0,"(1.00,100000.04)",10515,556.03,958.15,608.57,1219.57,127.28,102.52,5.2
+20170229,purRO_synthetic,MG1655,na,4,library,700,1H,M9glucose,adenine_100,Total,492492,100.0,100.0,"(1.00,100000.04)",9567,531.48,901.17,531.48,1302.2,144.5,108.8,6.9
+20170229,purRO_synthetic,MG1655,na,3,library,700,1H,M9glucose,adenine_100,Total,459369,100.0,100.0,"(1.00,100000.04)",7549,188.15,217.59,137.17,268.78,123.52,110.97,5.32
+20170229,purRO_synthetic,MG1655,na,2,library,700,1H,M9glucose,adenine_100,Total,380380,100.0,100.0,"(1.00,100000.04)",7030,53.15,84.28,53.15,116.27,137.97,117.3,13.38
+20170229,purRO_synthetic,MG1655,na,1,library,700,1H,M9glucose,adenine_100,Total,351644,100.0,100.0,"(1.00,100000.04)",7223,53.15,59.99,42.41,67.25,112.1,82.98,6.18
+20170229,dgoRO_synthetic,MG1655deltadgoR,na,4,library,700,1H,M9glucose,na,Total,498987,100.0,100.0,"(1.00,100000.04)",17376,2580.86,2973.9,2466.93,1979.02,66.55,53.69,3.42
+20170229,dgoRO_synthetic,MG1655deltadgoR,na,3,library,700,1H,M9glucose,na,Total,499279,100.0,100.0,"(1.00,100000.04)",18232,1881.52,2143.78,1881.52,1259.46,58.75,51.56,2.61
+20170229,dgoRO_synthetic,MG1655deltadgoR,na,1,library,700,1H,M9glucose,na,Total,479902,100.0,100.0,"(1.00,100000.04)",10404,485.6,523.89,405.36,492.3,93.97,79.09,2.98
+20170229,dgoRO_synthetic,MG1655deltadgoR_ybcN<>3*1dgoR,na,4,library,700,1H,M9glucose,na,Total,498794,100.0,100.0,"(1.00,100000.04)",15755,2358.03,2640.63,2253.93,1822.25,69.01,59.15,3.22
+20170229,dgoRO_synthetic,MG1655deltadgoR_ybcN<>3*1dgoR,na,3,library,700,1H,M9glucose,na,Total,499370,100.0,100.0,"(1.00,100000.04)",16451,1570.65,1747.16,1501.31,1092.83,62.55,58.2,3.96
+20170229,dgoRO_synthetic,MG1655deltadgoR_ybcN<>3*1dgoR,na,2,library,700,1H,M9glucose,na,Total,499057,100.0,100.0,"(1.00,100000.04)",15115,1046.18,1172.56,1000.0,791.27,67.48,62.83,3.73
+20170229,dgoRO_synthetic,MG1655deltadgoR_ybcN<>3*1dgoR,na,1,library,700,1H,M9glucose,na,Total,475076,100.0,100.0,"(1.00,100000.04)",9946,464.16,430.61,323.45,403.04,93.6,73.55,2.8

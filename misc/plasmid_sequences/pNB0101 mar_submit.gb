@@ -1,0 +1,210 @@
+LOCUS       pNB0101_mar_subm        4727 bp    DNA     linear   UNA 16-OCT-2017
+DEFINITION  .
+ACCESSION   urn.local...1508172616169.229
+VERSION     urn.local...1508172616169.229
+KEYWORDS    .
+SOURCE      
+  ORGANISM  
+            .
+FEATURES             Location/Qualifiers
+     rep_origin      117..2334
+                     /gene="pSC101 origin"
+                     /note="ApEinfo_fwdcolor=pink"
+                     /note="ApEinfo_revcolor=pink"
+                     /label="pSC101 origin"
+     misc_feature    635..2334
+                     /note="pSC101 functional sequence"
+                     /note="ApEinfo_fwdcolor=#cc50ff"
+                     /note="ApEinfo_revcolor=green"
+                     /label="pSC101 functional sequence"
+     misc_difference 1419
+                     /note="G-&gt;A =&gt; temperature sensitive (not grow at
+                     42C"
+                     /note="Armstrong et al. 1984"
+                     /note="plasmid pHS1)"
+                     /note="plasmid pHS1)"
+                     /note="ApEinfo_fwdcolor=#cc50ff"
+                     /note="ApEinfo_revcolor=green"
+                     /label="Armstrong et al. 1984"
+     misc_feature    2062..2174
+                     /note="Dnasel gyrase footprint (from Gobel &amp; Caro,
+                     1990)"
+                     /note="ApEinfo_fwdcolor=#cc50ff"
+                     /note="ApEinfo_revcolor=green"
+                     /label="Dnasel gyrase footprint (from Gobel &amp; Caro,
+                     1990)"
+     misc_feature    complement(3532..3552)
+                     /note="Geneious type: primer_"
+                     /label="BB extract"
+     misc_feature    3547..3552
+                     /note="Geneious type: Restriction cut"
+                     /label="Xhol"
+     CDS             complement(3553..3631)
+                     /gene="marC"
+                     /locus_tag="b1529"
+                     /note="GO_component: GO:0009274 - peptidoglycan-based
+                     cellwall"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="UPF0056 family inner membrane protein"
+                     /protein_id="AAC74602.1"
+                     /db_xref="GI:1787809"
+                     /db_xref="ASAP:ABE-0005106"
+                     /db_xref="UniProtKB/Swiss-Prot:P0AEY1"
+                     /db_xref="EcoGene:EG11637"
+                     /translation="MLDLFKAIGLGLVVLLPLANPLTTVALFLGLAGNMNSAERNRQS
+                     LMASVYVFAIMMVAYYAGQLVMDTFGISIPGLRIAGGLIVAFIGFRMLFPQQKAIDSP
+                     EAKSKSEELEDEPSANIAFVPLAMPSTAGPGTIAMIISSASTVRQSSTFADWVLMVAP
+                     PLIFFLVAVILWGSLRSSGAIMRLVGKGGIEAISRLMGFLLVCMGVQFIINGILEIIK
+                     TYH"
+                     /note="Geneious type: gene"
+                     /label="marC gene"
+     primer_bind     3705..3723
+                     /label="mar_mut2_amplfwd"
+     misc_feature    3726..3795
+                     /note="Geneious type: primer"
+                     /label="Mutagenesis region 2"
+     protein_bind    3728..3742
+                     /label="Fis (activator) binding site"
+     protein_bind    3735..3752
+                     /label="Cra binding site (repressor)"
+     protein_bind    3745..3764
+                     /label="SoxS binding site (activator)"
+     protein_bind    3745..3764
+                     /label="Rob binding site (activator)"
+     protein_bind    3745..3764
+                     /label="marA binding site (activator)"
+     protein_bind    3753..3773
+                     /label="CRP-cAMP binding site (activator)"
+     misc_feature    3758..3775
+                     /note="Geneious type: primer_"
+                     /label="mar_mut1_amplfwd"
+     misc_feature    3776..3845
+                     /note="Geneious type: primer"
+                     /label="Mutagenesis region 1"
+     protein_bind    3780..3785
+                     /label="RNAP '-35'"
+     protein_bind    3785..3808
+                     /label="MarRO"
+     protein_bind    3787..3808
+                     /label="marR binding site (repressor)"
+     misc_feature    complement(3796..3814)
+                     /note="Geneious type: primer_"
+                     /label="mar_mut2_amplrev"
+     protein_bind    3803..3808
+                     /label="RNAP '-10'"
+     protein_bind    3816
+                     /label="'+1' TSS"
+     protein_bind    3820..3843
+                     /label="MarRO (DPinteract)"
+     protein_bind    3821..3842
+                     /label="MarR"
+     gene            3843..3941
+                     /gene="marR"
+                     /locus_tag="b1530"
+                     /db_xref="EcoGene:EG11435"
+                     /label="marR gene"
+     misc_feature    complement(3846..3866)
+                     /note="Geneious type: primer"
+                     /label="rev full primer"
+     primer_bind     complement(3846..3866)
+                     /label="mar_mut1_amplrev"
+     misc_feature    3952^3953
+                     /note="Geneious type: Editing History Deletion"
+                     /label="T"
+     misc_feature    3953..3958
+                     /note="Geneious type: Restriction cut"
+                     /label="BamHI"
+     misc_feature    3953..3972
+                     /note="Geneious type: primer"
+                     /label="fwd BB extract"
+     misc_feature    3977^3978
+                     /note="Geneious type: Editing History Deletion"
+                     /label="G"
+     gene            3992..4708
+                     /gene="gfpmut2"
+                     /note="ApEinfo_label=gfpmut2"
+                     /note="ApEinfo_fwdcolor=pink"
+                     /note="ApEinfo_revcolor=pink"
+                     /label="gfpmut2"
+ORIGIN      
+        1 ctagaggcat caaataaaac gaaaggctca gtcgaaagac tgggcctttc gttttatctg
+       61 ttgtttgtcg gtgaacgctc tcctgagtag gacaaatccg ccgccctaga cctagggtac
+      121 gggttttgct gcccgcaaac gggctgttct ggtgttgcta gtttgttatc agaatcgcag
+      181 atccggcttc agccggtttg ccggctgaaa gcgctatttc ttccagaatt gccatgattt
+      241 tttccccacg ggaggcgtca ctggctcccg tgttgtcggc agctttgatt cgataagcag
+      301 catcgcctgt ttcaggctgt ctatgtgtga ctgttgagct gtaacaagtt gtctcaggtg
+      361 ttcaatttca tgttctagtt gctttgtttt actggtttca cctgttctat taggtgttac
+      421 atgctgttca tctgttacat tgtcgatctg ttcatggtga acagctttga atgcaccaaa
+      481 aactcgtaaa agctctgatg tatctatctt ttttacaccg ttttcatctg tgcatatgga
+      541 cagttttccc tttgatatgt aacggtgaac agttgttcta cttttgtttg ttagtcttga
+      601 tgcttcactg atagatacaa gagccataag aacctcagat ccttccgtat ttagccagta
+      661 tgttctctag tgtggttcgt tgtttttgcg tgagccatga gaacgaacca ttgagatcat
+      721 acttactttg catgtcactc aaaaattttg cctcaaaact ggtgagctga atttttgcag
+      781 ttaaagcatc gtgtagtgtt tttcttagtc cgttatgtag gtaggaatct gatgtaatgg
+      841 ttgttggtat tttgtcacca ttcattttta tctggttgtt ctcaagttcg gttacgagat
+      901 ccatttgtct atctagttca acttggaaaa tcaacgtatc agtcgggcgg cctcgcttat
+      961 caaccaccaa tttcatattg ctgtaagtgt ttaaatcttt acttattggt ttcaaaaccc
+     1021 attggttaag ccttttaaac tcatggtagt tattttcaag cattaacatg aacttaaatt
+     1081 catcaaggct aatctctata tttgccttgt gagttttctt ttgtgttagt tcttttaata
+     1141 accactcata aatcctcata gagtatttgt tttcaaaaga cttaacatgt tccagattat
+     1201 attttatgaa tttttttaac tggaaaagat aaggcaatat ctcttcacta aaaactaatt
+     1261 ctaatttttc gcttgagaac ttggcatagt ttgtccactg gaaaatctca aagcctttaa
+     1321 ccaaaggatt cctgatttcc acagttctcg tcatcagctc tctggttgct ttagctaata
+     1381 caccataagc attttcccta ctgatgttca tcatctgagc gtattggtta taagtgaacg
+     1441 ataccgtccg ttctttcctt gtagggtttt caatcgtggg gttgagtagt gccacacagc
+     1501 ataaaattag cttggtttca tgctccgtta agtcatagcg actaatcgct agttcatttg
+     1561 ctttgaaaac aactaattca gacatacatc tcaattggtc taggtgattt taatcactat
+     1621 accaattgag atgggctagt caatgataat tactagtcct tttcctttga gttgtgggta
+     1681 tctgtaaatt ctgctagacc tttgctggaa aacttgtaaa ttctgctaga ccctctgtaa
+     1741 attccgctag acctttgtgt gttttttttg tttatattca agtggttata atttatagaa
+     1801 taaagaaaga ataaaaaaag ataaaaagaa tagatcccag ccctgtgtat aactcactac
+     1861 tttagtcagt tccgcagtat tacaaaagga tgtcgcaaac gctgtttgct cctctacaaa
+     1921 acagacctta aaaccctaaa ggcttaagta gcaccctcgc aagctcgggc aaatcgctga
+     1981 atattccttt tgtctccgac catcaggcac ctgagtcgct gtctttttcg tgacattcag
+     2041 ttcgctgcgc tcacggctct ggcagtgaat gggggtaaat ggcactacag gcgcctttta
+     2101 tggattcatg caaggaaact acccataata caagaaaagc ccgtcacggg cttctcaggg
+     2161 cgttttatgg cgggtctgct atgtggtgct atctgacttt ttgctgttca gcagttcctg
+     2221 ccctctgatt ttccagtctg accacttcgg attatcccgt gacaggtcat tcagactggc
+     2281 taatgcaccc agtaaggcag cggtatcatc aacaggctta cccgtcttac tgtccctagt
+     2341 gcttggattc tcaccaataa aaaacgcccg gcggcaaccg agcgttctga acaaatccag
+     2401 atggagttct gaggtcatta ctggatctat caacaggagt ccaagcgagc tctcgaaccc
+     2461 cagagtcccg ctcattacca atgcttaatc agtgaggcac ctatctcagc gatctgtcta
+     2521 tttcgttcat ccatagttgc ctgactcccc gtcgtgtaga taactacgat acgggagggc
+     2581 ttaccatctg gccccagtgc tgcaatgata ccgcgagacc cacgctcacc ggctccagat
+     2641 ttatcagcaa taaaccagcc agccggaagg gccgagcgca gaagtggtcc tgcaacttta
+     2701 tccgcctcca tccagtctat taattgttgc cgggaagcta gagtaagtag ttcgccagtt
+     2761 aatagtttgc gcaacgttgt tgccattgct acaggcatcg tggtgtcacg ctcgtcgttt
+     2821 ggtatggctt cattcagctc cggttcccaa cgatcaaggc gagttacatg atcccccatg
+     2881 ttgtgcaaaa aagcggttag ctccttcggt cctccgatcg ttgtcagaag taagttggcc
+     2941 gcagtgttat cactcatggt tatggcagca ctgcataatt ctcttactgt catgccatcc
+     3001 gtaagatgct tttctgtgac tggtgagtac tcaaccaagt cattctgaga atagtgtatg
+     3061 cggcgaccga gttgctcttg cccggcgtca atacgggata ataccgcgcc acatagcaga
+     3121 actttaaaag tgctcatcat tggaaaacgt tcttcggggc gaaaactctc aaggatctta
+     3181 ccgctgttga gatccagttc gatgtaaccc actcgtgcac ccaactgatc ttcagcatct
+     3241 tttactttca ccagcgtttc tgggtgagca aaaacaggaa ggcaaaatgc cgcaaaaaag
+     3301 ggaataaggg cgacacggaa atgttgaata ctcatgcgaa acgatcctca tcctgtctct
+     3361 tgatcagatc ttgatcccct gcgccatcag atccttggcg gcaagaaagc catccagttt
+     3421 actttgcagg gcttcccaac cttaccagag ggcgccccag ctggcaattc cgacgtctaa
+     3481 gaaaccatta ttatcatgac attaacctat aaaaataggc gtatcacgag gccctttcgt
+     3541 cttcacctcg agacgcgaca gttgttaatg ggttagctaa cggcagcaac accaccagcc
+     3601 ccaggccaat tgctttaaac aaatctaaca ttggtggttg ttatcctgtg tatctgggtt
+     3661 atcagcgaaa agtataaggg gtaaacaagg ataaagtgtc actctttagc tagccttgca
+     3721 tcgcattgaa caaaacttga accgatttag caaaacgtgg catcggtcaa ttcattcatt
+     3781 tgacttatac ttgcctgggc aatattatcc cctgcaacta attacttgcc agggcaacta
+     3841 atgtgaaaag taccagcgat ctgttcaatg aaattattcc attgggtcgc ttaatccata
+     3901 tggttaatca gaagaaagat cgcctgctta acgagtatct gtctccgctg gaggatcccg
+     3961 ggatcctcta gatttaaaag gagatataca tatgagtaaa ggagaagaac ttttcactgg
+     4021 agttgtccca attcttgttg aattagatgg tgatgttaat gggcacaaat tttctgtcag
+     4081 tggagagggt gaaggtgatg caacatacgg aaaacttacc cttaaattta tttgcactac
+     4141 tggaaaacta cctgttccat ggccaacact tgtcactact ttcgcgtatg gtcttcaatg
+     4201 ctttgcgaga tacccagatc atatgaaaca gcatgacttt ttcaagagtg ccatgcccga
+     4261 aggttatgta caggaaagaa ctatattttt caaagatgac gggaactaca agacacgtgc
+     4321 tgaagtcaag tttgaaggtg atacccttgt taatagaatc gagttaaaag gtattgattt
+     4381 taaagaagat ggaaacattc ttggacacaa attggaatac aactataact cacacaatgt
+     4441 atacatcatg gcagacaaac aaaagaatgg aatcaaagtt aacttcaaaa ttagacacaa
+     4501 cattgaagat ggaagcgttc aactagcaga ccattatcaa caaaatactc caattggcga
+     4561 tggccctgtc cttttaccag acaaccatta cctgtccaca caatctgccc tttcgaaaga
+     4621 tcccaacgaa aagagagacc acatggtcct tcttgagttt gtaacagctg ctgggattac
+     4681 acatggcatg gatgaactat acaaataaac ctgcaggcat gcaagct
+//

@@ -1,0 +1,10 @@
+# Comments about run
+# date: 20150209
+# Sorting of mar and rel promoter libraries (one window for the rel promoter
+# and two windows for the mar promoter) in MG1655. Growth in M9 glucose, 37C.
+date,promoter,strain,region,bin,sequence,voltage,gain,media,condition,Region,Count,%Hist,%All,Bounds,ModeCount,Mode,Mean,Median,StdDev.,CV,CV(hm),Skew
+20150209,marR,MG1655,na,na,wild-type,600,1H,M9glucose,na,Total,300635,100.0,100.0,"(1.00,100000.04)",7043,21.54,19.84,16.43,19.74,99.52,74.16,96.02
+20150209,marR,MG1655,mut1,na,librar,600,1H,M9glucose,na,Total,289114,100.0,100.0,"(1.00,100000.04)",6106,19.68,24.74,17.19,30.47,123.17,86.21,14.64
+20150209,marR,MG1655,mut2,na,library,600,1H,M9glucose,na,Total,274242,100.0,100.0,"(1.00,100000.04)",6343,19.68,19.65,15.71,15.77,80.27,77.58,3.28
+20150209,relB,MG1655,na,na,wild-type,600,1H,M9glucose,na,Total,495632,100.0,100.0,"(1.00,100000.04)",17019,137.17,139.65,125.33,79.93,57.24,51.32,3.39
+20150209,relB,MG1655,mut1,na,library,600,1H,M9glucose,na,Total,420446,100.0,100.0,"(1.00,100000.04)",4510,30.92,323.62,72.9,701.52,216.77,900.37,5.56

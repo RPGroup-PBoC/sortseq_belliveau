@@ -1,0 +1,11 @@
+# Comments about run
+# date: 20160517
+# Here cells containing the dgoR promoter libraries were sorted
+# (mut1, mut2, and mut3; three overlapping windows). These cells
+# were grown in M9 glucose.
+date,promoter,strain,region,bin,sequence,voltage,gain,media,condition,Region,Count,%Hist,%All,Bounds,ModeCount,Mode,Mean,Median,StdDev.,CV,CV(hm),Skew
+20160517,na,MG1655,na,na,na,700,1H,M9glucose,na,Total,126878,100.0,100.0,"(1.00,100000.04)",2965,387.47,371.01,309.17,273.56,73.73,71.57,1.72
+20160517,dgoR,MG1655,na,na,wild-type,900,1H,M9glucose,na,Total,389645,100.0,100.0,"(1.00,100000.04)",8737,696.85,716.24,581.71,606.95,84.74,84.92,8.98
+20160517,dgoR,MG1655,mut1,na,library,900,1H,M9glucose,na,Total,356848,100.0,100.0,"(1.00,100000.04)",7340,729.03,863.26,581.71,1283.02,148.62,81.8,12.01
+20160517,dgoR,MG1655,mut2,na,library,900,1H,M9glucose,na,Total,461098,100.0,100.0,"(1.00,100000.04)",9261,1371.69,1971.49,1253.25,2585.97,131.17,94.36,5.19
+20160517,dgoR,MG1655,mut3,na,library,900,1H,M9glucose,na,Total,463855,100.0,100.0,"(1.00,100000.04)",7432,1719.07,3054.83,1719.07,4098.52,134.17,160.32,3.93

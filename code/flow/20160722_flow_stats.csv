@@ -1,0 +1,21 @@
+# Comments about run:
+# date: 20160722
+# MG1655 delta dgoR, delta purR, or delta xylE grown in M9
+# These as well as non-delta strains were tested in relevant conditions to
+# check whether we see expected differences due to change in regulatory states.
+# Note that adenine is added at 100 ug/ml.
+date,promoter,strain,region,bin,sequence,voltage,gain,media,condition,Region,Count,%Hist,%All,Bounds,ModeCount,Mode,Mean,Median,StdDev.,CV,CV(hm),Skew
+20160622,na,MG1655,na,na,na,700,1H,M9glucose,na,Total,239533,100.0,100.0,"(1.00,100000.04)",5631,37.04,32.67,27.0,205.64,629.54,67.2,479.62
+20160622,na,MG1655,na,na,na,900,1H,M9glucose,na,Total,226837,100.0,100.0,"(1.00,100000.04)",5102,387.47,382.9,309.17,453.36,118.4,75.6,112.29
+20160622,dgoR,MG1655,na,na,wild-type,700,1H,M9galactonate,na,Total,472436,100.0,100.0,"(1.00,100000.04)",11983,100.0,90.24,76.27,137.13,151.96,64.03,217.56
+20160622,dgoR,MG1655,na,na,wild-type,700,1H,M9glucose,na,Total,77434,100.0,100.0,"(1.00,100000.04)",2479,3091.69,2418.76,2466.93,2303.5,95.23,39.57,2.91
+20160622,dgoR,MG1655deltadgoR,na,na,wild-type,700,1H,M9galactonate,na,Total,499425,100.0,100.0,"(1.00,100000.04)",25665,1311.13,1342.71,1253.25,554.06,41.26,36.64,9.2
+20160622,dgoR,MG1655deltadgoR,na,na,wild-type,700,1H,M9glucose,na,Total,464836,100.0,100.0,"(1.00,100000.04)",21598,5560.3,6201.76,5817.09,3650.59,58.86,41.4,5.66
+20160622,purT,MG1655,na,na,wild-type,700,1H,M9glucose,na,Total,489869,100.0,100.0,"(1.00,100000.04)",13661,1501.31,1498.02,1253.25,1355.88,90.51,58.24,7.28
+20160622,purT,MG1655,na,na,wild-type,700,1H,M9glucose,adenine_100,Total,344657,100.0,100.0,"(1.00,100000.04)",7522,485.6,554.02,443.67,474.49,85.64,93.67,2.4
+20160622,purT,MG1655deltapurR,na,na,wild-type,700,1H,M9glucose,na,Total,499547,100.0,100.0,"(1.00,100000.04)",18218,3540.13,3697.49,3234.48,2377.11,64.29,47.11,5.58
+20160622,purT,MG1655deltapurR,na,na,wild-type,700,1H,M9glucose,adenine_100,Total,498067,100.0,100.0,"(1.00,100000.04)",15665,4436.69,6006.3,4436.69,5700.95,94.92,54.68,3.64
+20160622,xylE,MG1655,na,na,wild-type,700,1H,M9glucose,na,Total,247813,100.0,100.0,"(1.00,100000.04)",5716,424.08,407.37,338.39,313.88,77.05,76.29,1.65
+20160622,xylE,MG1655,na,na,wild-type,700,1H,M9xylose,na,Total,489157,100.0,100.0,"(1.00,100000.04)",17184,3540.13,3257.65,3091.69,1771.51,54.38,48.1,1.32
+20160622,xylE,MG1655deltaxylR,na,na,wild-type,700,1H,M9glucose,na,Total,258950,100.0,100.0,"(1.00,100000.04)",5874,485.6,417.52,338.39,382.23,91.55,66.63,71.5
+20160622,xylE,MG1655deltaxylR,na,na,wild-type,700,1H,M9xylose,(littlegrowth),Total,17181,100.0,100.0,"(1.00,100000.04)",419,405.36,467.48,387.47,448.22,95.88,82.74,23.22

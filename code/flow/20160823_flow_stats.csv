@@ -1,0 +1,19 @@
+# Comments about run:
+# date: 20160823
+# JK10 strain grown in EZrich media. Supplemented with:
+# A) Glucose, 0 uM cAMP
+# B) Xylose, 500 uM cAMP
+# Note that growth was very slow (if at all) for the glucose, 0 uM cAMP cells.
+# I didn't end up sorting the glucose ones since there were few cells and the expression
+# was essentially autofluorescence.
+date,promoter,strain,region,bin,sequence,voltage,gain,media,condition,Region,Count,%Hist,%All,Bounds,ModeCount,Mode,Mean,Median,StdDev.,CV,CV(hm),Skew
+20160823,na,JK10,na,na,na,700,1H,EZrich_glucose,na,Total,406613,100.0,100.0,"(1.00,100000.04)",8377,60.86,74.98,53.15,161.06,214.81,90.19,181.36
+20160823,xylE,JK10,na,na,wild-type,700,1H,EZrich_glucose,na,Total,392373,100.0,100.0,"(1.00,100000.04)",8243,58.17,65.76,48.56,70.1,106.6,86.21,34.04
+20160823,xylE,JK10,mut1,na,library,700,1H,EZrich_glucose,na,Total,463402,100.0,100.0,"(1.00,100000.04)",11002,95.59,103.66,76.27,126.25,121.8,72.26,19.47
+20160823,xylE,JK10,mut2,na,library,700,1H,EZrich_glucose,na,Total,458855,100.0,100.0,"(1.00,100000.04)",10866,83.48,91.71,72.9,88.36,96.34,74.87,5.33
+20160823,xylE,JK10,mut3,na,library,700,1H,EZrich_glucose,na,Total,436598,100.0,100.0,"(1.00,100000.04)",9756,76.27,82.75,60.86,87.38,105.6,76.95,6.07
+20160823,na,JK10,na,na,na,700,1H,EZrich_glucose,na,Total,419909,100.0,100.0,"(1.00,100000.04)",9669,66.61,63.97,50.8,64.77,101.25,73.55,54.72
+20160823,xylE,JK10,na,na,wild-type,700,1H,EZrich_xylose,na,Total,494172,100.0,100.0,"(1.00,100000.04)",24827,10461.84,12373.71,10461.84,7701.53,62.24,35.39,3.37
+20160823,xylE,JK10,mut1,na,library,700,1H,EZrich_xylose,na,Total,492765,100.0,100.0,"(1.00,100000.04)",9861,10000.0,7064.59,5560.3,7548.1,106.84,58.24,2.33
+20160823,xylE,JK10,mut2,na,library,700,1H,EZrich_xylose,na,Total,467626,100.0,100.0,"(1.00,100000.04)",7151,109.45,893.04,131.11,2403.96,269.19,96.26,6.64
+20160823,xylE,JK10,mut3,na,library,700,1H,EZrich_xylose,na,Total,485561,100.0,100.0,"(1.00,100000.04)",5193,4436.69,2383.68,762.7,3655.3,153.35,90.76,3.84

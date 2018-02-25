@@ -1,0 +1,12 @@
+# Comments about run
+# date: 20151209
+# This was a regrowth of the sort with only the marA TF binding site mutated.
+# marRAB: LB 30C
+# I also tested out a promoter plasmid of relBE where a spacer (1kb; approx) was
+# placed between the native rbs and the GFP rbs to reduce coupling. Doesn't
+# appear to be much expression and will have to think on this one.
+date,promoter,strain,region,bin,sequence,voltage,gain,media,condition,Region,Count,%Hist,%All,Bounds,ModeCount,Mode,Mean,Median,StdDev.,CV,CV(hm),Skew
+20151219,mar,MG1655,mut2_marA_purchased,1,library,800,1H,LB,30C,Total,61659,100.0,100.0,"(1.00,100000.04)",1482,109.45,82.42,69.68,60.4,73.28,57.1,3.17
+20151219,mar,MG1655,mut2_marA_purchased,2,library,800,1H,LB,30C,Total,132553,100.0,100.0,"(1.00,100000.04)",3133,104.62,90.91,76.27,117.55,129.3,66.02,140.07
+20151219,mar,MG1655,mut2_marA_purchased,3,library,800,1H,LB,30C,Total,132072,100.0,100.0,"(1.00,100000.04)",3166,104.62,90.17,76.27,109.05,120.94,65.39,156.37
+20151219,mar,MG1655,mut2_marA_purchased,4,library,800,1H,LB,30C,Total,135918,100.0,100.0,"(1.00,100000.04)",3242,104.62,90.98,76.27,85.43,93.9,66.02,70.6

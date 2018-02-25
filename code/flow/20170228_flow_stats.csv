@@ -1,0 +1,28 @@
+# Comments about run:
+# date: 20170228
+# Sorting seems to have worked properly now. Not sure why it didn't the day before.
+# Looked at regrowth of dgoR mut4 in M9 galactonate and xylR simple activation constructs.
+# sorted: dgoR simple repression constructs with or without dgoR
+# knocked in a MG1655 delta dgoR strain.
+# purRO simple repression constructs were also sorted. This was in M9 glucose with or without
+adenine added at 100 ng/ul.
+# note: all done with 700V and 1H . all xylR binned
+# are these settings. The only ones that are # 600V_1.3H are the deltadgoR and deltadgoRintdgoR that say it.
+date,promoter,strain,region,bin,sequence,voltage,gain,media,condition,Region,Count,%Hist,%All,Bounds,ModeCount,Mode,Mean,Median,StdDev.,CV,CV(hm),Skew
+20170228,dgoR,MG1655,na,na,wild-type,700,1H,M9glucose,na,Total,246211,100.0,100.0,"(1.00,100000.04)",5788,30.92,31.42,25.81,23.32,74.23,79.81,1.81
+20170228,dgoR,MG1655,mut4,na,library,700,1H,M9glucose,na,Total,464556,100.0,100.0,"(1.00,100000.04)",10552,87.33,101.49,72.9,217.18,213.99,75.6,222.7
+20170228,dgoR,MG1655,mut4,1,library,700,1H,M9galactonate,na,Total,485344,100.0,100.0,"(1.00,100000.04)",13488,581.71,696.98,556.03,719.04,103.16,66.68,18.31
+20170228,dgoR,MG1655,mut4,2,library,700,1H,M9galactonate,na,Total,498810,100.0,100.0,"(1.00,100000.04)",16138,1643.18,1807.75,1570.65,1246.08,68.93,59.15,19.36
+20170228,dgoR,MG1655,mut4,3,library,700,1H,M9galactonate,na,Total,498013,100.0,100.0,"(1.00,100000.04)",19886,2466.93,2719.37,2466.93,1976.76,72.69,48.19,21.17
+20170228,dgoR,MG1655,mut4,4,library,700,1H,M9galactonate,na,Total,489629,100.0,100.0,"(1.00,100000.04)",18500,2580.86,3039.24,2700.06,1877.99,61.79,55.08,7.94
+20170228,purRO_synthetic,MG1655,na,na,library,700,1H,M9glucose,na,Total,398463,100.0,100.0,"(1.00,100000.04)",5546,69.68,192.45,79.79,433.23,225.11,225.15,9.98
+20170228,purRO_synthetic,MG1655,na,na,library,700,1H,M9glucose,adenine_100,Total,389098,100.0,100.0,"(1.00,100000.04)",5607,50.8,188.41,66.61,496.4,263.47,256.68,12.99
+20170228,dgoRO_synthetic,MG1655deltadgoR,na,na,library,600,1.3H,M9glucose,na,Total,492725,100.0,100.0,"(1.00,100000.04)",14534,443.67,495.16,424.08,389.52,78.66,59.85,5.76
+20170228,dgoRO_synthetic,MG1655deltadgoR_ybcN<>3*1dgoR,na,na,library,600,1.3H,M9glucose,na,Total,491456,100.0,100.0,"(1.00,100000.04)",14262,405.36,429.63,370.36,322.0,74.95,61.88,3.19
+20170227,xylRO_synthetic,MG1655deltaxylR,na,1,library,700,1H,M9glucose,xylose_added,Total,409681,100.0,100.0,"(1.00,100000.04)",8419,58.17,71.37,50.8,112.88,158.16,95.02,28.34
+20170227,xylRO_synthetic,MG1655deltaxylR,na,2,library,700,1H,M9glucose,xylose_added,Total,426895,100.0,100.0,"(1.00,100000.04)",8656,83.48,79.27,58.17,73.47,92.68,80.35,3.05
+20170227,xylRO_synthetic,MG1655deltaxylR,na,3,library,700,1H,M9glucose,xylose_added,Total,463178,100.0,100.0,"(1.00,100000.04)",9605,125.33,121.34,91.37,115.15,94.9,79.32,4.22
+20170227,xylRO_synthetic,MG1655deltaxylR_ybcN<>3*1xylR,na,1,library,700,1H,M9glucose,xylose_added,Total,406622,100.0,100.0,"(1.00,100000.04)",8220,72.9,68.16,50.8,64.04,93.97,80.35,3.85
+20170227,xylRO_synthetic,MG1655deltaxylR_ybcN<>3*1xylR,na,2,library,700,1H,M9glucose,xylose_added,Total,413510,100.0,100.0,"(1.00,100000.04)",8262,69.68,74.98,55.6,73.83,98.47,87.39,5.68
+20170227,xylRO_synthetic,MG1655deltaxylR_ybcN<>3*1xylR,na,3,library,700,1H,M9glucose,xylose_added,Total,462527,100.0,100.0,"(1.00,100000.04)",9702,114.5,124.5,91.37,119.52,96.0,85.58,4.13
+20170227,xylRO_synthetic,MG1655deltaxylR_ybcN<>3*1xylR,na,4,library,700,1H,M9glucose,xylose_added,Total,493172,100.0,100.0,"(1.00,100000.04)",9012,258.09,470.87,295.52,537.66,114.18,155.35,8.6

@@ -1,0 +1,15 @@
+# Comments about run:
+# date: 20170129
+# These measurements were to look at expression levels
+# of my yebG promoter gfp construct and the
+# associated libraries that were made based off of
+# the purT ones. I also looked at expression changes
+# upon addition of mitomycin C at 1 microgram/ml.
+date,promoter,strain,region,bin,sequence,voltage,gain,media,condition,Region,Count,%Hist,%All,Bounds,ModeCount,Mode,Mean,Median,StdDev.,CV,CV(hm),Skew
+20170129,na,MG1655,na,na,na,700,2H,M9glucose,na,Total,182996,100.0,100.0,"(1.00,100000.04)",4818,8.73,9.28,7.63,6.26,67.45,75.6,1.7
+20170129,yebG,MG1655,na,na,wild-type,700,2H,M9glucose,na,Total,480541,100.0,100.0,"(1.00,100000.04)",12426,40.54,48.49,35.4,189.67,391.18,66.23,87.08
+20170129,yebG,MG1655,na,na,wild-type,700,2H,M9glucose,adenine_100,Total,487589,100.0,100.0,"(1.00,100000.04)",11647,42.41,59.91,38.75,325.11,542.7,78.33,119.95
+20170129,yebG,MG1655,na,na,wild-type,700,2H,M9glucose,mitomycinC,Total,498372,100.0,100.0,"(1.00,100000.04)",23237,2700.06,2810.34,2700.06,1187.32,42.25,39.57,1.4
+20170129,yebG,MG1655,mut1,na,library,700,2H,M9glucose,mitomycinC,Total,493541,100.0,100.0,"(1.00,100000.04)",10148,1570.65,943.74,729.03,969.87,102.77,50.32,1.56
+20170129,yebG,MG1655,mut2,na,library,700,2H,M9glucose,na,Total,430794,100.0,100.0,"(1.00,100000.04)",6137,25.81,166.22,35.4,398.43,239.71,144.41,8.13
+20170129,yebG,MG1655,mut2,na,library,700,2H,M9glucose,mitomycinC,Total,491258,100.0,100.0,"(1.00,100000.04)",6322,58.17,674.28,131.11,1078.14,159.89,88.84,3.74

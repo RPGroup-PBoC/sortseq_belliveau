@@ -1,0 +1,29 @@
+# Primers used to amplify Sort-Seq oligo libraries. Note that libraries were ordered from IDT.
+# These amplify oligo libraries and extend the ends to add more homology for Gibson Assembly.
+# For lac library, restriction enzyme approach of Kinney et al. 2010 was used - see associated SI methods for further details.
+name,type,sequence,comments
+DJ_mut_ext_fwd,primerCGACAGGTTTCCCGACT,DJ_mut_ext_rev,primer,CCGTAATCATGGTCATAGCTG,
+NBS020_mar_mut1_ext_fwd,primer,ACCGATTTAGCAAAACGTGG CATCGGTCAATTCAT,
+NBS021_mar_mut1_ext_rev,primer,CAATGGAATAATTTCATTGAACAG ATCGCTGGTACTTTT,
+NBS022_mar_mut2_ext_fwd,primer,GGATAAAGTGTCACTCTTTAGC TAGCCTTGCATCGCA,
+NBS023_mar_mut2_ext_rev,primer,GGCAAGTAATTAGTTGCAGG GGATAATATTGCCCA,
+NBS024_rel_mut1_ext_fwd,primer,CACCGTTCTTACGACTACTTT CTGACTTCCTTCGTG,
+NBS025_rel_mut1_ext_rev,primer,GCTTTAAGTTCATCGTCAATAC GCAGGTTAATGCTAC,
+NBS164_purT_mut1_ext_fwd,primer,TATTTCTTTTCGGTTGAGAAAT,
+NBS165_purT_mut1_ext_rev,primer,AATAACGTCATAACGAATATCCCCT,
+NBS166_purT_mut2_ext_fwd,primer,GCCATTTGCAGCCTCTCAT,
+NBS167_purT_mut2_ext_rev,primer,GAAAACGTTTGCGTGTGTCT,
+NBS168_purT_mut3_ext_fwd,primer,CCTTTCGTCTTCACCTCGAGCTCAC,
+NBS169_purT_mut3_ext_rev,primer,CCGAAAAGAAATATACTGTATAAAATCAC,
+NBS152_xylE_mut1_ext_fwd,primer,CGTAAACGCATTGTAAAAAATGATAATTGCC,
+NBS153_xylE_mut1_ext_rev,primer,TGGGTATTCATTCAGACCTGCCTTA,
+NBS154_xylE_mut2_ext_fwd,primer,TCAATTTTGGATAATTATCACAATTAAGATC,
+NBS155_xylE_mut2_ext_rev,primer,CATTGATGTTGGAATTGTCAG,
+NBS156_xylE_mut3_ext_fwd,primer,TAATTCTCTTTCGTGCTCTGAGTCA,
+NBS157_xylE_mut3_ext_rev,primer,TTACAATGCGTTTACGTAATGT,
+NBS158_dgoR_mut1_ext_fwd,primer,GCGAACGTCATCACGCTG,
+NBS159_dgoR_mut1_ext_rev,primer,TGAGAGTCATGGAGAGTCCTTGTG,
+NBS160_dgoR_mut2_ext_fwd,primer,GTAGTACAACAATATAAGTTTGTAC,
+NBS161_dgoR_mut2_ext_rev,primer,CGATCGATGCATAACGCG,
+NBS162_dgoR_mut3_ext_fwd,primer,GATTTCTGCCCGACGCATGTCATTTTTTTATGCA,
+NBS163_dgoR_mut3_ext_rev,primer,GTTCGCGTTTGCCGTGCG,

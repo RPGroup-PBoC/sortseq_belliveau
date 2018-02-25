@@ -1,0 +1,281 @@
+Protein	Protein Description
+kdpE	KdpE-Phosphorylated DNA-binding transcriptional activator
+treR	TreR DNA-binding transcriptional repressor
+glnG	NtrC-Phosphorylated DNA-binding transcriptional dual regulator
+zraR	ZraR-Phosphorylated DNA-binding transcriptional activator
+creB	CreB-Phosphorylated DNA-binding transcriptional regulator
+baeR	BaeR-Phosphorylated DNA-binding transcriptional activator
+phoP	PhoP-Phosphorylated DNA-binding transcriptional dual regulator
+uhpA	UhpA-Phosphorylated
+rpoN	RNA polymerase, sigma 54 (sigma N) factor
+rpoD	RNA polymerase, sigma 70 (sigma D) factor
+fliA	RNA polymerase, sigma 28 (sigma F) factor
+rpoS	RNA polymerase, sigma S (sigma 38) factor
+rpoE	RNA polymerase, sigma 24 (sigma E) factor
+fecI	RNA polymerase, sigma 19 factor
+rpoH	RNA polymerase, sigma 32 (sigma H) factor
+lysR	LysR DNA-binding transcriptional dual regulator
+hcaR	HcaR transcriptional dual regulator
+betI	BetI DNA-binding transcriptional repressor
+allR	AllR DNA-binding transcriptional repressor
+gadX	GadX DNA-binding transcriptional dual regulator
+phnF	PhnF predicted transcriptional regulator
+yjhU	KpLE2 phage-like element; predicted DNA-binding transcriptional regulator
+envY	EnvY DNA-binding transcriptional activator
+ihfA	integration host factor (IHF), &alpha; subunit
+dgoR	predicted DNA-binding transcriptional regulator
+malT	MalT transcriptional activator
+xapR	XapR transcriptional activator
+csiR	CsiR DNA-binding transcriptional repressor
+nanR	NanR DNA-binding transcriptional dual regulator
+yidZ	putative transcriptional regulator LysR-type
+yfaX	predicted DNA-binding transcriptional regulator
+yciT	DNA-binding transcriptional regulator
+nac_	Nac DNA-binding transcriptional dual regulator
+yqeH	conserved protein with bipartite regulator domain
+zur_	Zur
+xylR	XylR transcriptional activator
+galR	GalR DNA-binding transcriptional dual regulator
+yijO	predicted DNA-binding transcriptional regulator
+cra_	Cra DNA-binding transcriptional dual regulator
+dctR	predicted DNA-binding transcriptional regulator
+gatR_2	GatR_2
+ynfL	predicted DNA-binding transcriptional regulator
+rhaR	RhaR transcriptional activator
+rtcR	RtcR DNA-binding transcriptional activator
+mraZ	MraZ DNA-binding transcriptional repressor
+yfhH	predicted DNA-binding transcriptional regulator
+insH-5	Rac prophage; IS5 transposase and trans-activator
+qseB	QseB transcriptional activator
+lrhA	LrhA DNA-binding transcriptional dual regulator
+nusA	transcription termination/antitermination L factor
+bdcR	predicted transcriptional regulator
+gatR_1	negative DNA-binding transcriptional regulator of galactitol metabolism
+iraP	anti-adaptor protein for &sigma;<sup>S</sup> stabilization
+fucR	FucR transcriptional activator
+yahA	phosphodiesterase, c-di-GMP-specific
+oxyR	OxyR DNA-binding transcriptional dual regulator
+ydfH	YdfH DNA-binding transcriptional repressor
+feaR	FeaR DNA-binding transcriptional activator
+abgR	predicted DNA-binding transcriptional regulator, LYSR-type
+yqjI	YqjI DNA-binding transcriptional repressor
+perR	PerR transcriptional regulator
+flgM	anti-sigma factor for FliA (&sigma;<sup>28</sup>)
+ygeL	predicted protein
+yjjQ	predicted DNA-binding transcriptional regulator
+dmlR	DmlR DNA-binding transcriptional regulator
+cytR	CytR
+trpR	TrpR
+ybhD	predicted DNA-binding transcriptional regulator
+nagC	NagC DNA-binding transcriptional dual regulator
+yihW	predicted DNA-binding transcriptional regulator
+ilvY	IlvY DNA-binding transcriptional dual regulator
+yfeR	predicted DNA-binding transcriptional regulator, LYSR-type
+sutR	SutR DNA-binding transcriptional dual regulator
+paaX	PaaX
+treR	TreR transcriptional repressor
+ydhB	protein with similarity to transcriptional regulators
+acrR	AcrR DNA-binding transcriptional repressor
+lgoR	predicted DNA-binding transcriptional regulator
+fabR	FabR DNA-binding transcriptional repressor
+sgcR	KpLE2 phage-like element; predicted DNA-binding transcriptional regulator
+ygaV	predicted DNA-binding transcriptional regulator
+mprA	MprA DNA-binding transcriptional repressor
+glrR	GlrR DNA-binding transcriptional activator
+rutR	RutR DNA-binding transcriptional dual regulator
+malI	MalI DNA-binding transcriptional repressor
+crp_	CRP transcriptional dual regulator
+argR	ArgR
+yahB	predicted DNA-binding transcriptional regulator, LysR-type
+yqhC	YqhC DNA-binding transcriptional activator
+yedW	YedW DNA-binding response regulator in two-component system with YedV
+yeiL	YeiL DNA-binding transcriptional activator
+mlrA	MlrA DNA binding transcriptional activator
+lldR	LldR transcriptional repressor
+glpR	GlpR DNA-binding transcriptional repressor
+mngR	MngR
+ihfB	integration host factor (IHF), &beta; subunit
+nsrR	NsrR
+araC	AraC
+ybdO	predicted DNA-binding transcriptional regulator LYSR-type
+cdaR	CdaR DNA-binding transcriptional activator
+allS	AllS transcriptional activator
+pdhR	PdhR DNA-binding transcriptional dual regulator
+ascG	AscG DNA-binding transcriptional repressor
+prpR	PrpR DNA-binding transcriptional dual regulator
+ybeF	predicted DNA-binding transcriptional regulator, LYSR-type
+norR	NorR DNA-binding transcriptional dual regulator
+iraD	inhibitor of &sigma;<sup>S</sup> proteolysis
+ydjF	predicted DNA-binding transcriptional regulator
+ebgR	EbgR DNA-binding transcriptional repressor
+lacI	LacI DNA-binding transcriptional repressor
+gcvA	GcvA DNA-binding transcriptional dual regulator
+ada	Ada DNA-binding transcriptional dual regulator
+hyfR	HyfR DNA-binding transcriptional activator
+ybiH	predicted DNA-binding transcriptional regulator
+yfiE	predicted DNA-binding transcriptional regulator LYSR-type
+ypdC	predicted ARAC-type regulatory protein
+chbR	ChbR DNA-binding transcriptional dual regulator
+arsR	ArsR
+eutR	putative ARAC-type regulatory protein
+yeeY	predicted DNA-binding transcriptional regulator
+rcsB	RcsB
+bluR	BluR DNA-binding transcriptional repressor
+yeiE	LYSR-type transcriptional regulator
+pspB	stimulates PspC-mediated transcriptional activation of the psp operon; antitoxin of a PspC-PspB toxin-antitoxin pair
+yjiR	putative regulator
+modE	ModE
+ycaN	putative transcriptional regulator LYSR-type
+alpA	AlpA DNA-binding transcriptional activator; CP4-57 prophage
+yebK	predicted DNA-binding transcriptional regulator
+nhaR	NhaR transcriptional activator
+cynR	CynR DNA-binding transcriptional repressor
+hupA	transcriptional dual regulator HU-&alpha; (HU-2)
+purR	PurR
+frlR	predicted DNA-binding transcriptional regulator
+murR	MurR
+ydcR	fused predicted DNA-binding transcriptional regulator and predicted amino transferase
+yieP	predicted transcriptional regulator
+yidP	predicted DNA-binding transcriptional regulator
+prlF	PrlF antitoxin
+ykgA	predicted DNA-binding transcriptional regulator
+ygiV	YgiV DNA-binding transcriptional repressor
+rssB	regulator of RpoS
+kdgR	KdgR DNA-binding transcriptional repressor
+bglJ	BglJ DNA-binding transcriptional regulator
+metJ	MetJ transcriptional repressor
+sdiA	SdiA DNA-binding transcriptional dual regulator
+yoeB	toxin of the YoeB-YefM toxin-antitoxin pair
+cadC	CadC DNA-binding transcriptional activator
+tdcA	TdcA DNA-binding transcriptional activator
+dpiA	DpiA
+yneJ	predicted DNA-binding transcriptional regulator, LysR-type
+pspF	PspF transcriptional dual regulator
+agaR	AgaR DNA-binding transcriptional repressor
+yafC	predicted DNA-binding transcriptional regulator  LYSR-type
+ecpR	MatA DNA-binding transcriptional dual regulator
+glcC	GlcC transcriptional dual regulator
+gadE	GadE DNA-binding transcriptional activator
+glnG	NtrC transcriptional dual regulator
+zntR	ZntR transcriptional activator
+sfsB	Nlp transcriptional regulator
+rbsR	RbsR DNA-binding transcriptional dual regulator
+csgD	CsgD DNA-binding transcriptional dual regulator
+mntR	MntR
+soxS	SoxS DNA-binding transcriptional dual regulator
+soxR	SoxR transcriptional dual regulator
+argP	ArgP transcriptional activator
+marR	MarR transcriptional repressor
+ttdR	Dan
+fur_	Fur
+fis_	Fis
+crl_	RNA polymerase holoenzyme assembly factor Crl
+yiaU	predicted DNA-binding transcriptional regulator, LysR-type
+yhjB	predicted DNA-binding response regulator in two-component regulatory system
+pgrR	PgrR DNA-binding transcriptional repressor
+yagI	CP4-6 prophage; predicted DNA-binding transcriptional regulator
+caiF	CaiF
+ygeV	putative transcriptional regulator
+hdfR	HdfR DNA-binding transcriptional dual regulator
+sxy	transcriptional coactivator for CRP
+ygbI	predicted DNA-binding transcriptional regulator, DEOR-type
+gntR	GntR DNA-binding transcriptional repressor
+ulaR	UlaR DNA-binding transcriptional repressor
+deoR	DeoR DNA-binding transcriptional repressor
+lrp_	Lrp transcriptional dual regulator
+asnC	AsnC
+mcbR	McbR DNA-binding transcriptional dual regulator
+envR	EnvR DNA-binding transcriptional repressor
+ydcI	YdcI DNA-binding transcriptional repressor
+yhaJ	predicted DNA-binding transcriptional regulator LYSR-type
+gadW	GadW DNA-binding transcriptional dual regulator
+nimR	NimR DNA-binding transcriptional repressor
+hypT	HypT transcriptional dual regulator
+fliZ	FliZ DNA-binding transcriptional regulator
+ydiP	predicted DNA-binding transcriptional regulator
+exuR	ExuR DNA-binding transcriptional repressor
+appY	AppY DNA-binding transcriptional activator
+slyA	SlyA DNA-binding transcriptional activator
+iscR	IscR DNA-binding transcriptional dual regulator
+cysB	CysB
+yihL	YihL putative transcriptional regulator
+lsrR	LsrR
+flhD	FlhD
+fimZ	FimZ transcriptional regulator
+rsd	regulator of &sigma;<sup>70</sup> (&sigma;<sup>D</sup>), stationary phase protein
+ybaO	predicted DNA-binding transcriptional regulator
+rclR	RclR DNA-binding transcriptional activator
+ycjW	predicted DNA-binding transcriptional regulator, LacI type
+yegW	predicted DNA-binding transcriptional regulator
+cbl	Cbl DNA-binding transcriptional activator
+ygfI	predicted DNA-binding transcriptional regulator LYSR-type
+putA	fused PutA transcriptional repressor / proline dehydrogenase / 1-pyrroline-5-carboxylate dehydrogenase
+rob_	Rob DNA-binding transcriptional activator
+uxuR	UxuR DNA-binding transcriptional repressor
+fhlA	FhlA transcriptional activator
+yfjR	CP4-57 prophage; predicted DNA-binding transcriptional regulator
+leuO	LeuO DNA-binding transcriptional dual regulator
+dsdC	DsdC DNA-binding transcriptional dual regulator
+hupB	transcriptional dual regulator HU-&beta;, NS1 (HU-1)
+rhaS	RhaS
+yneL	predicted transcriptional regulator
+yiaJ	YiaJ DNA-binding transcriptional repressor
+iraM	inhibitor of &sigma;<sup>S</sup> proteolysis
+pepA	aminopeptidase A/I
+iclR	IclR transcriptional repressor
+rcsA	positive DNA-binding transcriptional regulator of capsular polysaccharide synthesis, activates its own expression
+rseB	rseB
+rpiR	AlsR DNA-binding transcriptional repressor
+srlR	GutR DNA-binding transcriptional repressor
+melR	MelR DNA-binding transcriptional dual regulator
+rseP	RseP zinc protease, signal peptide peptidase
+aaeR	quorum sensing transcriptional regulator of LYSR-type
+cueR	CueR transcriptional dual regulator
+yidL	putative ARAC-type regulatory protein
+cspC	stress protein, member of the CspA family
+cspD	cold shock protein homolog, binds ssDNA
+cspB	Qin prophage; cold shock protein; predicted DNA-binding transcriptional regulator
+alaS	alanyl-tRNA synthetase
+cspE	transcription antiterminator and regulator of RNA stability
+nikR	NikR DNA-binding transcriptional repressor, Ni-binding
+ygeK	predicted DNA-binding transcriptional regulator
+metR	MetR
+fadR	FadR DNA-binding transcriptional dual regulator
+nemR	NemR DNA-binding transcriptional repressor
+tyrR	TyrR DNA-binding transcriptional dual regulator
+uidR	UidR DNA-binding transcriptional repressor
+galS	GalS DNA-binding transcriptional dual regulator
+fnr	FNR
+ydeO	YdeO DNA-binding transcriptional dual regulator
+ybcM	DLP12 prophage; predicted DNA-binding transcriptional regulator
+rseA	anti-sigma factor
+mhpR	MhpR transcriptional activator
+yhjC	predicted DNA-binding transcriptional regulator
+dhaR	DhaR DNA-binding transcriptional dual regulator
+rfaH	RfaH transcriptional antiterminator
+sgrR	SgrR DNA-binding transcriptional dual regulator
+yjhI	KpLE2 phage-like element; predicted DNA-binding transcriptional regulator
+adiY	AdiY DNA-binding transcriptional activator
+idnR	IdnR transcriptional regulator
+flhC	FlhC
+cspA	CspA DNA-binding transcriptional activator
+marA	DNA-binding transcriptional dual regulator
+arcA	ArcA transcriptional dual regulator
+zraR	ZraR transcriptional activator
+narL	NarL
+evgA	EvgA transcriptional regulator
+uvrY	UvrY transcriptional regulator
+uhpA	UhpA transcriptional activator
+narP	NarP
+atoC	AtoC transcriptional activator; Az protein inhibitor of ODC
+dcuR	DcuR transcriptional activator
+cpxR	CpxR transcriptional dual regulator
+kdpE	KdpE transcriptional activator
+ttdR	Dan-L-tartrate DNA-binding transcriptional activator
+relB	Antitoxin RelB
+relE	mRNA interferase RelE
+seqA	negative modulator of initiation of replication
+nrdR	Nrd regulon repressor
+fpG	mRNA formamidopyrimidine DNA glycosylase DNA repair
+
+

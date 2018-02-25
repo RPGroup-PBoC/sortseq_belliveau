@@ -1,0 +1,9 @@
+# Comments about run:
+# date: 20160822
+# MG1655 delta dgoR cells with pdgoR mut3 window were sorted (500V1H)
+# Growth was in galactonate (I previously did it in glucose).
+date,promoter,strain,region,bin,sequence,voltage,gain,media,condition,Region,Count,%Hist,%All,Bounds,ModeCount,Mode,Mean,Median,StdDev.,CV,CV(hm),Skew
+20160822,na,MG1655,na,na,na,700,1H,M9glucose,na,Total,225379,100.0,100.0,"(1.00,100000.04)",5184,40.54,41.06,33.84,42.15,102.66,81.17,76.94
+20160822,na,MG1655,na,na,na,700,1H,M9galactonate,na,Total,390239,100.0,100.0,"(1.00,100000.04)",4940,83.48,366.13,104.62,899.83,245.77,260.23,7.54
+20160822,na,MG1655deltadgoR,na,na,na,700,1H,M9glucose,na,Total,499902,100.0,100.0,"(1.00,100000.04)",15631,3874.68,4433.99,3874.68,2726.06,61.48,69.76,6.95
+20160822,na,MG1655deltadgoR,na,na,na,700,1H,M9galactonate,na,Total,473154,100.0,100.0,"(1.00,100000.04)",37736,100000.04,31525.39,21544.36,29108.96,92.33,1.87,1.18

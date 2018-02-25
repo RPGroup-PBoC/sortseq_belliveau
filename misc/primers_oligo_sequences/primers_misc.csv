@@ -1,0 +1,5 @@
+# misc primers; useful for sequencing promoters
+name,type,sequence,comments
+NBS_P072 fwd,primer,AGATCCTTGGCGGCAAGAAA,upstream of promoter insert
+NBS_P073 rev,primer,GAAATAGCGCTTTCAGCCGG,downstream of gfp gene
+NBS_GFP_rev,primer,GCATCACCTTCACCCTCTCCA,within gfpmut2 gene in promoter plasmid

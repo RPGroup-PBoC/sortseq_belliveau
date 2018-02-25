@@ -1,0 +1,20 @@
+# Comments about run
+# date: 20150312
+# Although I sorted marRAB libraries already, the promoter appeared essentially
+# 'off' in M9 glucose. Here I tried growth in LB 30C (and M9 30C), which is
+# supposed to cause the promoter to be expressed more. Although it didn't show a
+# dramatic increase in expression, it looked more encouraging and I went ahead
+# with sorting.
+# I also looked at a delta relB and delta relBE strains
+#  (wild-type and mutant library). These were sorted.
+date,promoter,strain,region,bin,sequence,voltage,gain,media,condition,Region,Count,%Hist,%All,Bounds,ModeCount,Mode,Mean,Median,StdDev.,CV,CV(hm),Skew
+20150312,marR,MG1655,na,na,wild-type,600,1H,LB,30C,Total,345812,100.0,100.0,"(1.00,100000.04)",8054,104.62,102.01,83.48,113.6,111.35,76.95,166.54
+20150312,marR,MG1655,na,na,wild-type,600,1H,M9glucose,30C,Total,345812,100.0,100.0,"(1.00,100000.04)",8054,104.62,102.01,83.48,113.6,111.35,76.95,166.54
+20150312,marR,MG1655deltamarR,na,na,wild-type,600,1H,LB,30C,Total,497955,100.0,100.0,"(1.00,100000.04)",18609,531.48,514.75,485.6,253.37,49.22,47.11,1.47
+20150312,marR,MG1655deltamarR,na,na,wild-type,600,1H,M9glucose,30C,Total,464951,100.0,100.0,"(1.00,100000.04)",12298,246.69,242.49,215.44,216.33,89.21,68.46,54.21
+20150312,marR,MG1655deltamarRAB,na,na,wild-type,600,1H,LB,30C,Total,497586,100.0,100.0,"(1.00,100000.04)",16894,387.47,384.06,354.01,206.24,53.7,53.69,1.82
+20150312,marR,MG1655deltamarRAB,na,na,wild-type,600,1H,M9glucose,30C,Total,458449,100.0,100.0,"(1.00,100000.04)",11548,215.44,195.46,164.32,190.91,97.67,67.71,67.62
+20150312,relB,MG1655deltarelBE,na,na,wild-type,600,1H,M9glucose,na,Total,494928,100.0,100.0,"(1.00,100000.04)",18135,7979.23,8981.59,7979.23,4908.07,54.65,53.94,1.24
+20150312,relB,MG1655deltarelBE,mut1,na,library,600,1H,M9glucose,na,Total,424950,100.0,100.0,"(1.00,100000.04)",4733,196.84,1140.55,338.39,2203.09,193.16,598.07,4.88
+20150312,relB,MG1655deltarelE,na,na,wild-type,600,1H,M9glucose,na,Total,493833,100.0,100.0,"(1.00,100000.04)",15209,1094.5,1324.92,1145.05,863.51,65.17,67.73,3.87
+20150312,relB,MG1655deltarelE,mut1,na,library,600,1H,M9glucose,na,Total,410341,100.0,100.0,"(1.00,100000.04)",5073,143.5,895.43,246.69,1854.7,207.13,494.5,5.64
